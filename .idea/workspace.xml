@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
+    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding Execute Class in Binary Tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -36,11 +35,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="732">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,6 +133,17 @@
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rahulkumarpariharmailbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,12 +238,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567570691521</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding Javadoc Comments">
+      <created>1567571797119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567571797119</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding Execute Method in Main">
+      <created>1567571878854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567571878854</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -243,7 +269,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -310,10 +336,24 @@
     <MESSAGE value="Adding DFS Traversal for Binary Tree" />
     <MESSAGE value="Changes in Project xml file" />
     <MESSAGE value="Adding Execute Class in Binary Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Execute Class in Binary Tree" />
+    <MESSAGE value="Adding Javadoc Comments" />
+    <MESSAGE value="Adding Execute Method in Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Execute Method in Main" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/rahulparihar/ArrayListClass.java" />
@@ -361,17 +401,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
