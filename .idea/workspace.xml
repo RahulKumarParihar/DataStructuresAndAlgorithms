@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="-168">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/DepthFirstTraversal.java" />
         <option value="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/DepthFirstTraversalIterative.java" />
         <option value="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Run.java" />
-        <option value="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" />
         <option value="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" />
       </list>
     </option>
   </component>
@@ -211,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567570439333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes in Project xml file">
+      <created>1567570646295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567570646295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding Execute Class in Binary Tree">
+      <created>1567570691521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567570691521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -295,7 +309,8 @@
     <MESSAGE value="Adding DFSTraversal" />
     <MESSAGE value="Adding DFS Traversal for Binary Tree" />
     <MESSAGE value="Changes in Project xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in Project xml file" />
+    <MESSAGE value="Adding Execute Class in Binary Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Execute Class in Binary Tree" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -348,8 +363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="-168">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>

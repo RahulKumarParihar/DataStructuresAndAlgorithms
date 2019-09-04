@@ -3,11 +3,19 @@ package com.rahulkumarpariharmailbox.BinaryTree;
 import java.util.List;
 
 public class Execute {
+    /**
+     * Run method
+     */
     public void Run() {
         BinaryTree tree = CreateBinaryTree();
         ExecuteTraversal(tree);
     }
 
+    /**
+     * This method is used for creating a Binary Tree
+     *
+     * @return BinaryTree
+     */
     private BinaryTree CreateBinaryTree() {
         BinaryTree binaryTree = new BinaryTree();
         binaryTree.root = new BinaryTree().new Node(1);
@@ -20,6 +28,11 @@ public class Execute {
         return binaryTree;
     }
 
+    /**
+     * Print all the elements of a list in a single row
+     *
+     * @param list a list
+     */
     private void PrintList(List<Integer> list) {
         for (int item : list) {
             System.out.print(item + " ");
