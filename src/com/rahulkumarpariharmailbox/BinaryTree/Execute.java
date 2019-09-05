@@ -2,10 +2,12 @@ package com.rahulkumarpariharmailbox.BinaryTree;
 
 import com.rahulkumarpariharmailbox.BinaryTree.Classes.DepthFirstTraversalIterative;
 import com.rahulkumarpariharmailbox.BinaryTree.Classes.DepthFirstTraversalRecusive;
+import com.rahulkumarpariharmailbox.BinaryTree.Classes.MaxIterative;
+import com.rahulkumarpariharmailbox.BinaryTree.Classes.MaxRecursive;
 import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.DepthFirstTraversal;
+import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.Max;
 
 import java.util.List;
-import java.util.Stack;
 
 public class Execute {
     /**
@@ -14,8 +16,7 @@ public class Execute {
     public void Run() {
         BinaryTree tree = CreateBinaryTree();
         ExecuteTraversal(tree);
-        System.out.println(FindMax(tree.root));
-        System.out.println(FindMaxRecursion(tree.root));
+        ExecuteMax(tree);
     }
 
     /**
@@ -47,6 +48,11 @@ public class Execute {
         System.out.println();
     }
 
+    /**
+     * Will execute both recursive and iterative methods of traversal
+     *
+     * @param tree tree
+     */
     private void ExecuteTraversal(BinaryTree tree) {
         DepthFirstTraversal iterative = new DepthFirstTraversalIterative();
         DepthFirstTraversal recursive = new DepthFirstTraversalRecusive();
@@ -71,43 +77,16 @@ public class Execute {
         PrintList(traversalList);
     }
 
-    private int FindMax(BinaryTree.Node root) {
-        int max = -1;
-        Stack<BinaryTree.Node> stack = new Stack<>();
-        BinaryTree.Node previous = null;
-        do {
-            while (root != null) {
-                stack.add(root);
+    /**
+     * Will execute both iterative and recursive method to find max
+     *
+     * @param tree tree
+     */
+    private void ExecuteMax(BinaryTree tree) {
+        Max iterative = new MaxIterative();
+        Max recursive = new MaxRecursive();
 
-                root = root.leftChild;
-            }
-
-            while (root == null && !stack.empty()) {
-                root = stack.peek();
-
-                if (root.rightChild == null || root.rightChild == previous) {
-                    if (max < root.data)
-                        max = root.data;
-                    stack.pop();
-                    previous = root;
-                    root = null;
-                } else {
-                    root = root.rightChild;
-                }
-            }
-        } while (!stack.empty());
-        return max;
-    }
-
-    private int FindMaxRecursion(BinaryTree.Node root) {
-        int max = -1;
-        if (root != null) {
-            int dataValue = root.data;
-            int left = FindMaxRecursion(root.leftChild);
-            int right = FindMaxRecursion(root.rightChild);
-            max = Math.max(left, right);
-            max = Math.max(dataValue, max);
-        }
-        return max;
+        System.out.println(iterative.FindMax(tree.root));
+        System.out.println(recursive.FindMax(tree.root));
     }
 }

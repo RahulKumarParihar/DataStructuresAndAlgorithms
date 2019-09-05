@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Refactoring Classes">
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxIterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxRecursive.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingIterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Max.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Searching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/DepthFirstTraversalIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/DepthFirstTraversalRecusive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalRecusive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +35,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="940" />
-    <option name="height" value="765" />
   </component>
   <component name="ProjectId" id="1QOznLOCJ7dpskeHJ4SYCz75h0d" />
   <component name="PropertiesComponent">
@@ -157,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567656082384</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactoring Classes">
+      <created>1567656947168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567656947168</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,16 +205,5 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
