@@ -1,4 +1,6 @@
-package com.rahulkumarpariharmailbox.BinaryTree;
+package com.rahulkumarpariharmailbox.BinaryTree.Interfaces;
+
+import com.rahulkumarpariharmailbox.BinaryTree.BinaryTree;
 
 import java.util.List;
 
