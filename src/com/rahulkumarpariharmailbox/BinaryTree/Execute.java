@@ -1,13 +1,12 @@
 package com.rahulkumarpariharmailbox.BinaryTree;
 
-import com.rahulkumarpariharmailbox.BinaryTree.Classes.DepthFirstTraversalIterative;
-import com.rahulkumarpariharmailbox.BinaryTree.Classes.DepthFirstTraversalRecusive;
-import com.rahulkumarpariharmailbox.BinaryTree.Classes.MaxIterative;
-import com.rahulkumarpariharmailbox.BinaryTree.Classes.MaxRecursive;
+import com.rahulkumarpariharmailbox.BinaryTree.Classes.*;
 import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.DepthFirstTraversal;
 import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.Max;
+import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.Searching;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class Execute {
     /**
@@ -17,6 +16,7 @@ public class Execute {
         BinaryTree tree = CreateBinaryTree();
         ExecuteTraversal(tree);
         ExecuteMax(tree);
+        ExecuteSearch(tree);
     }
 
     /**
@@ -88,5 +88,26 @@ public class Execute {
 
         System.out.println(iterative.FindMax(tree.root));
         System.out.println(recursive.FindMax(tree.root));
+    }
+
+    private void ExecuteSearch(BinaryTree tree) {
+        System.out.print("Enter the data you want to search for ");
+
+        Scanner scan = new Scanner(System.in);
+        int data = scan.nextInt();
+        scan.close();
+
+        Searching iterative = new SearchingIterative();
+        Searching recursive = new SearchingRecursive();
+
+        if (iterative.Search(tree.root, data))
+            System.out.println("Data exists in tree");
+        else
+            System.out.println("Data doesn't exists in tree");
+
+        if (recursive.Search(tree.root, data))
+            System.out.println("Data exists in tree");
+        else
+            System.out.println("Data doesn't exists in tree");
     }
 }
