@@ -1,5 +1,6 @@
-package com.rahulkumarpariharmailbox.BinaryTree;
+package com.rahulkumarpariharmailbox.BinaryTree.Classes;
 
+import com.rahulkumarpariharmailbox.BinaryTree.BinaryTree;
 import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.DepthFirstTraversal;
 
 import java.util.ArrayList;

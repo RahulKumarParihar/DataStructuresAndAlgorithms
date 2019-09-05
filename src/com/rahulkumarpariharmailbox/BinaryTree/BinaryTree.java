@@ -5,7 +5,7 @@ package com.rahulkumarpariharmailbox.BinaryTree;
  */
 public class BinaryTree {
     /* contains address of the root node */
-    public Node root;
+    Node root;
 
     /**
      * Nested Node class
@@ -14,22 +14,22 @@ public class BinaryTree {
         /**
          * Contains address of the left child
          */
-        Node leftChild;
+        public Node leftChild;
         /**
          * Contains address of the right child
          */
-        Node rightChild;
+        public Node rightChild;
         /**
          * Contains data of the current node
          */
-        int data;
+        public int data;
 
         /**
          * public constructor to initialize value of data
          *
          * @param data contains value of the node
          */
-        public Node(int data) {
+        Node(int data) {
             this.data = data;
             leftChild = rightChild = null;
         }

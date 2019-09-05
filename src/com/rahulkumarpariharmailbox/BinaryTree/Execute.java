@@ -1,5 +1,7 @@
 package com.rahulkumarpariharmailbox.BinaryTree;
 
+import com.rahulkumarpariharmailbox.BinaryTree.Classes.DepthFirstTraversalIterative;
+import com.rahulkumarpariharmailbox.BinaryTree.Classes.DepthFirstTraversalRecusive;
 import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.DepthFirstTraversal;
 
 import java.util.List;
@@ -103,8 +105,8 @@ public class Execute {
             int dataValue = root.data;
             int left = FindMaxRecursion(root.leftChild);
             int right = FindMaxRecursion(root.rightChild);
-            max = left > right ? left : right;
-            max = dataValue > max ? dataValue : max;
+            max = Math.max(left, right);
+            max = Math.max(dataValue, max);
         }
         return max;
     }
