@@ -10,6 +10,12 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# idea project files
+.idea
+
+# eclipse plugin information
+.metadata
+
 # Package Files #
 *.jar
 *.war

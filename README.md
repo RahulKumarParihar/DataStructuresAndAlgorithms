@@ -1,2 +1,2 @@
 # DataStructures
-My Implementation of various datastructures
+My Implementation of various Data Structures
