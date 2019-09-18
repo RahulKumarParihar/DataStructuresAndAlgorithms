@@ -56,6 +56,7 @@ public class Execute {
     private void ExecuteTraversal(BinaryTree tree) {
         DepthFirstTraversal iterative = new DepthFirstTraversalIterative();
         DepthFirstTraversal recursive = new DepthFirstTraversalRecusive();
+        BreathFirstTraversal bft = new BreathFirstTraversal();
         List<Integer> traversalList;
         traversalList = iterative.PreOrderTraversal(tree.root);
         System.out.println("PreOrder Traversal Iterative");
@@ -75,6 +76,11 @@ public class Execute {
         traversalList = recursive.PostOrderTraversal(tree.root);
         System.out.println("PostOrder Traversal Recursive");
         PrintList(traversalList);
+        System.out.println("LevelOrder Traversal");
+        List<List<Integer>> levelOrderTraversal = bft.levelOrderTraversal(tree.root);
+        for (List<Integer> list : levelOrderTraversal) {
+            PrintList(list);
+        }
     }
 
     /**
