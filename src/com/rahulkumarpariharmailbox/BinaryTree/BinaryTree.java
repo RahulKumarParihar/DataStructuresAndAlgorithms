@@ -29,7 +29,7 @@ public class BinaryTree {
          *
          * @param data contains value of the node
          */
-        Node(int data) {
+        public Node(int data) {
             this.data = data;
             leftChild = rightChild = null;
         }

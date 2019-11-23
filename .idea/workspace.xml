@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding Level order traversal">
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Modifying implementation of Level Order and Diagonal Traversal">
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/BreathFirstTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/BreathFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,7 +69,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="10.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.rahulkumarpariharmailbox.Main" />
       <module name="DataStructures" />
@@ -89,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567479451359</updated>
       <workItem from="1574312456453" duration="1293000" />
-      <workItem from="1574313761750" duration="293000" />
+      <workItem from="1574313761750" duration="962000" />
+      <workItem from="1574491893569" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -203,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568812229828</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding diagonal traversal">
+      <created>1574314151873</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574314151873</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +263,9 @@
     <MESSAGE value="Changes in project" />
     <MESSAGE value="Making project ready to to worked on eclipse too." />
     <MESSAGE value="Adding Level order traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Level order traversal" />
+    <MESSAGE value="Adding diagonal traversal" />
+    <MESSAGE value="Modifying implementation of Level Order and Diagonal Traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifying implementation of Level Order and Diagonal Traversal" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

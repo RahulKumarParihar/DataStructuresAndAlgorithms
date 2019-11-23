@@ -1,29 +1,38 @@
 package com.rahulkumarpariharmailbox.BinaryTree.Classes;
 
 import com.rahulkumarpariharmailbox.BinaryTree.BinaryTree;
+import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.BreathFirstTraversal;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class DiagonalTraversal {
-    public List<List<Integer>> diagonalTraversal(BinaryTree.Node root) {
+public class DiagonalTraversal implements BreathFirstTraversal {
+    /**
+     * Printing traversal in diagonal order
+     *
+     * @param root root node of the tree
+     * @return diagonal order traversal with different list
+     */
+    public List<List<Integer>> traversal(BinaryTree.Node root) {
         List<List<Integer>> result = new LinkedList<>();
+        if (root == null) {
+            return result;
+        }
         List<Integer> diagonal = new LinkedList<>();
         Queue<BinaryTree.Node> queue = new ArrayDeque<>();
-
-        if (root != null) {
-            queue.offer(root);
-        }
+        BinaryTree.Node breakNode = new BinaryTree().new Node(Integer.MIN_VALUE);
+        queue.offer(root);
+        queue.offer(breakNode);
         while (!queue.isEmpty()) {
             root = queue.poll();
-            if (root == null) {
+            if (root == breakNode) {
                 result.add(diagonal);
-                diagonal.clear();
-                queue.offer(null);
+                diagonal = new LinkedList<>();
+                queue.offer(breakNode);
                 root = queue.poll();
-                if (root == null)
+                if (root == breakNode)
                     break;
             }
 
@@ -36,7 +45,6 @@ public class DiagonalTraversal {
                 root = root.rightChild;
             }
         }
-
         return result;
     }
 }

@@ -1,6 +1,7 @@
 package com.rahulkumarpariharmailbox.BinaryTree;
 
 import com.rahulkumarpariharmailbox.BinaryTree.Classes.*;
+import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.BreathFirstTraversal;
 import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.DepthFirstTraversal;
 import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.Max;
 import com.rahulkumarpariharmailbox.BinaryTree.Interfaces.Searching;
@@ -56,8 +57,7 @@ public class Execute {
     private void ExecuteTraversal(BinaryTree tree) {
         DepthFirstTraversal iterative = new DepthFirstTraversalIterative();
         DepthFirstTraversal recursive = new DepthFirstTraversalRecusive();
-        BreathFirstTraversal bft = new BreathFirstTraversal();
-        DiagonalTraversal dt = new DiagonalTraversal();
+        BreathFirstTraversal bft = new LevelOrderTraversal();
         List<Integer> traversalList;
         traversalList = iterative.PreOrderTraversal(tree.root);
         System.out.println("PreOrder Traversal Iterative");
@@ -78,12 +78,13 @@ public class Execute {
         System.out.println("PostOrder Traversal Recursive");
         PrintList(traversalList);
         System.out.println("LevelOrder Traversal");
-        List<List<Integer>> levelOrderTraversal = bft.levelOrderTraversal(tree.root);
+        List<List<Integer>> levelOrderTraversal = bft.traversal(tree.root);
         for (List<Integer> list : levelOrderTraversal) {
             PrintList(list);
         }
         System.out.println("Diagonal Traversal");
-        List<List<Integer>> diagonalTraversal = dt.diagonalTraversal(tree.root);
+        bft = new DiagonalTraversal();
+        List<List<Integer>> diagonalTraversal = bft.traversal(tree.root);
         for (List<Integer> list : diagonalTraversal) {
             PrintList(list);
         }
