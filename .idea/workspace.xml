@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Modifying implementation of Level Order and Diagonal Traversal">
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/BreathFirstTraversal.java" afterDir="false" />
+    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding LinkedList Operation interface its implementation on iterative and recursive classes">
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationRecursively.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Execute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Interfaces/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/BreathFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/LevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,10 +43,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollectionLearning" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LinkedList">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -79,6 +86,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rahulkumarpariharmailbox.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rahulkumarpariharmailbox.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.rahulkumarpariharmailbox.Test.LinkedList" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList.addNewNodeAtEnd" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rahulkumarpariharmailbox.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rahulkumarpariharmailbox.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.rahulkumarpariharmailbox.Test.LinkedList" />
+      <option name="METHOD_NAME" value="addNewNodeAtEnd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LinkedList" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -92,7 +135,11 @@
       <updated>1567479451359</updated>
       <workItem from="1574312456453" duration="1293000" />
       <workItem from="1574313761750" duration="962000" />
-      <workItem from="1574491893569" duration="1265000" />
+      <workItem from="1574491893569" duration="3644000" />
+      <workItem from="1574745727299" duration="2043000" />
+      <workItem from="1574785993800" duration="2309000" />
+      <workItem from="1574918290262" duration="15000" />
+      <workItem from="1575181585679" duration="14172000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -213,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574314151873</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Modifying implementation of Level Order and Diagonal Traversal">
+      <created>1574493223999</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574493223999</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Adding Junit 4 to the project">
+      <created>1575214433245</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575214433245</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +326,9 @@
     <MESSAGE value="Adding Level order traversal" />
     <MESSAGE value="Adding diagonal traversal" />
     <MESSAGE value="Modifying implementation of Level Order and Diagonal Traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifying implementation of Level Order and Diagonal Traversal" />
+    <MESSAGE value="Adding Junit 4 to the project" />
+    <MESSAGE value="Adding LinkedList Operation interface its implementation on iterative and recursive classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding LinkedList Operation interface its implementation on iterative and recursive classes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

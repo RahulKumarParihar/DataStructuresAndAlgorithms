@@ -4,12 +4,13 @@ package com.rahulkumarpariharmailbox.LinkedList;
  * Linked Lists Class
  */
 public class LinkedLists {
-    LinkedLists.Node head;
+    public static class Node {
+        public int data;
+        public LinkedLists.Node next;
 
-    static class Node{
-        int data;
-        LinkedLists.Node next;
-
-        Node(int d){data = d; next = null;}
+        public Node(int d) {
+            data = d;
+            next = null;
+        }
     }
 }
