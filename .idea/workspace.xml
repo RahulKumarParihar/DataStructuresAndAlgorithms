@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding LinkedList Operation interface its implementation on iterative and recursive classes">
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationRecursively.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Execute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Interfaces/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" afterDir="false" />
+    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding BinarySearchTree insertion operation">
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/BinarySearchTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Travesal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Travesal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,6 +40,11 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
@@ -51,30 +55,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollectionLearning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITBodhiProblemSet" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.rahulkumarpariharmailbox.BinarySearchTree.Interface" />
+      <recent name="com.rahulkumarpariharmailbox.BinarySearchTree.Class" />
       <recent name="com.rahulkumarpariharmailbox.BinaryTree" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.LinkedList">
+  <component name="RunManager" selected="JUnit.BinarySearchTree">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -82,6 +76,21 @@
       <module name="DataStructures" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rahulkumarpariharmailbox.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rahulkumarpariharmailbox.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.rahulkumarpariharmailbox.Test.BinarySearchTree" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,9 +128,22 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTree" />
         <item itemvalue="JUnit.LinkedList" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -139,7 +161,24 @@
       <workItem from="1574745727299" duration="2043000" />
       <workItem from="1574785993800" duration="2309000" />
       <workItem from="1574918290262" duration="15000" />
-      <workItem from="1575181585679" duration="14172000" />
+      <workItem from="1575181585679" duration="16018000" />
+      <workItem from="1575248141707" duration="5097000" />
+      <workItem from="1575256302994" duration="380000" />
+      <workItem from="1575420454972" duration="3822000" />
+      <workItem from="1575470817926" duration="5169000" />
+      <workItem from="1575782871171" duration="1045000" />
+      <workItem from="1575943268111" duration="2370000" />
+      <workItem from="1576549398310" duration="665000" />
+      <workItem from="1577592039927" duration="19000" />
+      <workItem from="1577592141763" duration="1113000" />
+      <workItem from="1579417068109" duration="126000" />
+      <workItem from="1579436641594" duration="18000" />
+      <workItem from="1579436700891" duration="897000" />
+      <workItem from="1579439895551" duration="242000" />
+      <workItem from="1579493525765" duration="19000" />
+      <workItem from="1579954407971" duration="784000" />
+      <workItem from="1579969091106" duration="281000" />
+      <workItem from="1581042530222" duration="4385000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -274,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575214433245</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adding LinkedList Operation interface its implementation on iterative and recursive classes">
+      <created>1575214757314</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575214757314</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Adding Test cases for linked list class">
+      <created>1575214920164</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1575214920164</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,9 +381,85 @@
     <MESSAGE value="Modifying implementation of Level Order and Diagonal Traversal" />
     <MESSAGE value="Adding Junit 4 to the project" />
     <MESSAGE value="Adding LinkedList Operation interface its implementation on iterative and recursive classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding LinkedList Operation interface its implementation on iterative and recursive classes" />
+    <MESSAGE value="Adding Test cases for linked list class" />
+    <MESSAGE value="Adding BinarySearchTree insertion operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding BinarySearchTree insertion operation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1581043658632">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581043658632" />
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581047056877">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581047056877" />
+    <state width="410" height="466" key="DebuggerActiveHint" timestamp="1575475362022">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="410" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1575475362022" />
+    <state x="147" y="66" key="DiffContextDialog" timestamp="1581047007273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="147" y="66" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1581047007273" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1576549459456">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576549459456" />
+    <state width="732" height="211" key="GridCell.Tab.0.bottom" timestamp="1581047056908">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="732" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581047056908" />
+    <state width="732" height="211" key="GridCell.Tab.0.center" timestamp="1581047056908">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="732" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581047056908" />
+    <state width="732" height="211" key="GridCell.Tab.0.left" timestamp="1581047056907">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="732" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581047056907" />
+    <state width="732" height="211" key="GridCell.Tab.0.right" timestamp="1581047056908">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="732" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581047056908" />
+    <state width="665" height="246" key="GridCell.Tab.1.bottom" timestamp="1575956891591">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="665" height="246" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575956891591" />
+    <state width="665" height="246" key="GridCell.Tab.1.center" timestamp="1575956891591">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="665" height="246" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1575956891591" />
+    <state width="665" height="246" key="GridCell.Tab.1.left" timestamp="1575956891591">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="665" height="246" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1575956891591" />
+    <state width="665" height="246" key="GridCell.Tab.1.right" timestamp="1575956891591">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="665" height="246" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1575956891591" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1579417106491">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1579417106491" />
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1577592570512">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1577592570512" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1579493540027">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579493540027" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1577592579290">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.834@0.0.1536.834" timestamp="1577592579290" />
+    <state x="425" y="191" key="run.anything.popup" timestamp="1575435105970">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="191" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1575435105970" />
   </component>
 </project>
