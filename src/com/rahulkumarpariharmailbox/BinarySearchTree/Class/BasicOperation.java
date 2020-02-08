@@ -2,7 +2,7 @@ package com.rahulkumarpariharmailbox.BinarySearchTree.Class;
 
 import com.rahulkumarpariharmailbox.BinarySearchTree.BinarySearchTreeNode;
 
-public class Insertion implements com.rahulkumarpariharmailbox.BinarySearchTree.Interface.Insertion {
+public class BasicOperation implements com.rahulkumarpariharmailbox.BinarySearchTree.Interface.BasicOperation {
     @Override
     public BinarySearchTreeNode insert(BinarySearchTreeNode root, int nodeData) {
         if (root == null) {

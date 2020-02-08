@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding BinarySearchTree insertion operation">
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/BinarySearchTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Travesal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Travesal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/BasicOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/BasicOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -178,7 +175,8 @@
       <workItem from="1579493525765" duration="19000" />
       <workItem from="1579954407971" duration="784000" />
       <workItem from="1579969091106" duration="281000" />
-      <workItem from="1581042530222" duration="4385000" />
+      <workItem from="1581042530222" duration="4549000" />
+      <workItem from="1581142177175" duration="1097000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -327,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575214920164</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Adding BinarySearchTree insertion operation">
+      <created>1581047128198</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581047128198</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,10 +398,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581043658632" />
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581047056877">
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581146621336">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581047056877" />
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1581146621336" />
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581047126454">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581047126454" />
     <state width="410" height="466" key="DebuggerActiveHint" timestamp="1575475362022">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -409,22 +418,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576549459456" />
-    <state width="732" height="211" key="GridCell.Tab.0.bottom" timestamp="1581047056908">
+    <state width="732" height="211" key="GridCell.Tab.0.bottom" timestamp="1581047278665">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581047056908" />
-    <state width="732" height="211" key="GridCell.Tab.0.center" timestamp="1581047056908">
+    <state width="732" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581047278665" />
+    <state width="732" height="211" key="GridCell.Tab.0.center" timestamp="1581047278665">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581047056908" />
-    <state width="732" height="211" key="GridCell.Tab.0.left" timestamp="1581047056907">
+    <state width="732" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581047278665" />
+    <state width="732" height="211" key="GridCell.Tab.0.left" timestamp="1581047278665">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581047056907" />
-    <state width="732" height="211" key="GridCell.Tab.0.right" timestamp="1581047056908">
+    <state width="732" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581047278665" />
+    <state width="732" height="211" key="GridCell.Tab.0.right" timestamp="1581047278665">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581047056908" />
+    <state width="732" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581047278665" />
     <state width="665" height="246" key="GridCell.Tab.1.bottom" timestamp="1575956891591">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -449,10 +458,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1577592570512" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1579493540027">
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1581142181669">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579493540027" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581142181669" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1577592579290">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
