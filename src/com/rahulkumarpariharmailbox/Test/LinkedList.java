@@ -15,7 +15,7 @@ import static com.rahulkumarpariharmailbox.LinkedList.LinkedLists.Node;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class LinkedList<I extends Number> {
+public class LinkedList {
     private Insert insert = new Insert();
     private Operation operationIteration = new OperationIteration();
     private Operation operationRecursively = new OperationRecursively();

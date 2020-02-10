@@ -13,7 +13,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class BinarySearchTree {
-    private BasicOperation insertion = new com.rahulkumarpariharmailbox.BinarySearchTree.Class.BasicOperation();
+    private BasicOperation operation = new com.rahulkumarpariharmailbox.BinarySearchTree.Class.BasicOperation();
     private Travesal traversal = new com.rahulkumarpariharmailbox.BinarySearchTree.Class.Travesal();
 
     @Test
@@ -21,10 +21,36 @@ public class BinarySearchTree {
         BinarySearchTreeNode root = null;
         int[] nodeValues = {10, 6, 13, 14, 18, 3, 7};
         for (int i : nodeValues) {
-            root = insertion.insert(root, i);
+            root = operation.insert(root, i);
         }
         List<Integer> result = traversal.InOrderTraversal(root);
         List<Integer> requiredResult = new ArrayList<>(Arrays.asList(3, 6, 7, 10, 13, 14, 18));
+        assertThat(requiredResult, is(result));
+    }
+
+    @Test
+    public void DeleteWithNoChild() {
+        BinarySearchTreeNode root = null;
+        int[] nodeValues = {13, 10, 19, 11, 7, 8, 9, 3, 14, 21, 23};
+        for (int i : nodeValues) {
+            root = operation.insert(root, i);
+        }
+        root = operation.delete(root, 9);
+        List<Integer> result = traversal.InOrderTraversal(root);
+        List<Integer> requiredResult = new ArrayList<>(Arrays.asList(3, 7, 8, 10, 11, 13, 14, 19, 21, 23));
+        assertThat(requiredResult, is(result));
+    }
+
+    @Test
+    public void DeleteWithOneChild() {
+        BinarySearchTreeNode root = null;
+        int[] nodeValues = {13, 10, 19, 11, 7, 8, 9, 3, 14, 21, 23};
+        for (int i : nodeValues) {
+            root = operation.insert(root, i);
+        }
+        root = operation.delete(root, 8);
+        List<Integer> result = traversal.InOrderTraversal(root);
+        List<Integer> requiredResult = new ArrayList<>(Arrays.asList(3, 7, 9, 10, 11, 13, 14, 19, 21, 23));
         assertThat(requiredResult, is(result));
     }
 }

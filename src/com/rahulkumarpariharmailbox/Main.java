@@ -1,6 +1,6 @@
 package com.rahulkumarpariharmailbox;
 
-import com.rahulkumarpariharmailbox.LinkedList.Execute;
+import com.rahulkumarpariharmailbox.BinaryTree.Execute;
 
 public class Main {
 
