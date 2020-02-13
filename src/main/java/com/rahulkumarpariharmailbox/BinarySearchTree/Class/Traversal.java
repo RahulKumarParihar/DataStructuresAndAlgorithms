@@ -6,7 +6,7 @@ import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Travesal implements com.rahulkumarpariharmailbox.BinarySearchTree.Interface.Travesal {
+public class Traversal implements com.rahulkumarpariharmailbox.BinarySearchTree.Interface.Travesal {
     @Override
     public List<Integer> InOrderTraversal(BinarySearchTreeNode root) {
         List<Integer> result = new LinkedList<>();

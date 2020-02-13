@@ -1,6 +1,7 @@
 package com.rahulkumarpariharmailbox.Test;
 
 import com.rahulkumarpariharmailbox.BinarySearchTree.BinarySearchTreeNode;
+import com.rahulkumarpariharmailbox.BinarySearchTree.Class.Traversal;
 import com.rahulkumarpariharmailbox.BinarySearchTree.Interface.BasicOperation;
 import com.rahulkumarpariharmailbox.BinarySearchTree.Interface.Travesal;
 import org.junit.Test;
@@ -14,7 +15,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class BinarySearchTree {
     private BasicOperation operation = new com.rahulkumarpariharmailbox.BinarySearchTree.Class.BasicOperation();
-    private Travesal traversal = new com.rahulkumarpariharmailbox.BinarySearchTree.Class.Travesal();
+    private Travesal traversal = new Traversal();
 
     @Test
     public void InsertionTest() {
