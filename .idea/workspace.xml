@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_dagger_dagger_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Travesal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <recent name="com.rahulkumarpariharmailbox.BinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTree">
+  <component name="RunManager" selected="JUnit.LinkedList">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -139,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BinarySearchTree" />
         <item itemvalue="JUnit.LinkedList" />
+        <item itemvalue="JUnit.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +190,7 @@
       <workItem from="1581142177175" duration="7529000" />
       <workItem from="1581300037554" duration="4700000" />
       <workItem from="1581569885128" duration="395000" />
-      <workItem from="1581570316574" duration="452000" />
+      <workItem from="1581570316574" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -370,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581570570064</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Adding all dependency to pom.xml">
+      <created>1581570877300</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1581570877300</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +435,8 @@
     <MESSAGE value="Changing name of Insertion to BasicOperation" />
     <MESSAGE value="Adding BinarySearchTree delete operation" />
     <MESSAGE value="Adding maven framework to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding maven framework to project" />
+    <MESSAGE value="Adding all dependency to pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding all dependency to pom.xml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -449,10 +454,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1581146621336" />
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581570568708">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581570875445">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581570568708" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581570875445" />
     <state width="450" height="466" key="DebuggerActiveHint" timestamp="1581305311661">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -465,22 +470,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576549459456" />
-    <state width="739" height="264" key="GridCell.Tab.0.bottom" timestamp="1581311706864">
+    <state width="732" height="211" key="GridCell.Tab.0.bottom" timestamp="1581571407676">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
-    <state width="739" height="264" key="GridCell.Tab.0.center" timestamp="1581311706864">
+    <state width="732" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581571407676" />
+    <state width="732" height="211" key="GridCell.Tab.0.center" timestamp="1581571407676">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
-    <state width="739" height="264" key="GridCell.Tab.0.left" timestamp="1581311706864">
+    <state width="732" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581571407676" />
+    <state width="732" height="211" key="GridCell.Tab.0.left" timestamp="1581571407676">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
-    <state width="739" height="264" key="GridCell.Tab.0.right" timestamp="1581311706864">
+    <state width="732" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581571407676" />
+    <state width="732" height="211" key="GridCell.Tab.0.right" timestamp="1581571407676">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="732" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581571407676" />
     <state width="739" height="264" key="GridCell.Tab.1.bottom" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
