@@ -2,12 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding BinarySearchTree delete operation">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/BasicOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/BasicOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/BinarySearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/BinarySearchTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/BasicOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Travesal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Travesal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/BasicOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Travesal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Travesal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalRecusive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalRecusive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/BreathFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/BreathFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/DepthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/DepthFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Searching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationRecursively.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Interfaces/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Interfaces/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +57,11 @@
       <list>
         <option value="Rahul Kumar Parihar &lt;31583515+rahulkumarparihar@users.noreply.github.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="binarySearchTree" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -177,7 +209,8 @@
       <workItem from="1579969091106" duration="281000" />
       <workItem from="1581042530222" duration="4549000" />
       <workItem from="1581142177175" duration="7529000" />
-      <workItem from="1581300037554" duration="3397000" />
+      <workItem from="1581300037554" duration="4700000" />
+      <workItem from="1581569885128" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -340,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581146805728</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Adding BinarySearchTree delete operation">
+      <created>1581305835519</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581305835519</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +414,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Committing change in Project file xml" />
     <MESSAGE value="Adding BinaryTree class" />
@@ -408,58 +450,62 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581043658632" />
+    <state x="400" y="107" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1581570040946">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="400" y="107" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834@0.0.1536.834" timestamp="1581570040946" />
     <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581146621336">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1581146621336" />
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581305819229">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581570269425">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581305819229" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581570269425" />
     <state width="450" height="466" key="DebuggerActiveHint" timestamp="1581305311661">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="450" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1581305311661" />
-    <state x="147" y="66" key="DiffContextDialog" timestamp="1581305581346">
+    <state x="147" y="66" key="DiffContextDialog" timestamp="1581570266558">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="147" y="66" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1581305581346" />
+    <state x="147" y="66" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1581570266558" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1576549459456">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576549459456" />
-    <state width="732" height="211" key="GridCell.Tab.0.bottom" timestamp="1581305589724">
+    <state width="739" height="264" key="GridCell.Tab.0.bottom" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581305589724" />
-    <state width="732" height="211" key="GridCell.Tab.0.center" timestamp="1581305589724">
+    <state width="739" height="264" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="739" height="264" key="GridCell.Tab.0.center" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581305589724" />
-    <state width="732" height="211" key="GridCell.Tab.0.left" timestamp="1581305589724">
+    <state width="739" height="264" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="739" height="264" key="GridCell.Tab.0.left" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581305589724" />
-    <state width="732" height="211" key="GridCell.Tab.0.right" timestamp="1581305589724">
+    <state width="739" height="264" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="739" height="264" key="GridCell.Tab.0.right" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581305589724" />
-    <state width="739" height="264" key="GridCell.Tab.1.bottom" timestamp="1581305464712">
+    <state width="739" height="264" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="739" height="264" key="GridCell.Tab.1.bottom" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581305464712" />
-    <state width="739" height="264" key="GridCell.Tab.1.center" timestamp="1581305464712">
+    <state width="739" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="739" height="264" key="GridCell.Tab.1.center" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581305464712" />
-    <state width="739" height="264" key="GridCell.Tab.1.left" timestamp="1581305464712">
+    <state width="739" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="739" height="264" key="GridCell.Tab.1.left" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581305464712" />
-    <state width="739" height="264" key="GridCell.Tab.1.right" timestamp="1581305464712">
+    <state width="739" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="739" height="264" key="GridCell.Tab.1.right" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581305464712" />
+    <state width="739" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1579417106491">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -468,10 +514,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1577592570512" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1581300109908">
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1581570341662">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581300109908" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581570341662" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1581304958689">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
