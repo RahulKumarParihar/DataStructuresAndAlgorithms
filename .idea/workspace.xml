@@ -1,40 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding BinarySearchTree delete operation">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_dagger_dagger_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/BinarySearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/BinarySearchTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/BasicOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Travesal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Travesal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/BasicOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Travesal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Travesal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalRecusive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalRecusive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/LevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/BreathFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/BreathFirstTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/DepthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/DepthFirstTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Max.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Searching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationIteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationRecursively.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Execute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/Interfaces/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Interfaces/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahulkumarpariharmailbox/Test/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Travesal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +39,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1QOznLOCJ7dpskeHJ4SYCz75h0d" />
   <component name="ProjectLevelVcsManager">
@@ -211,6 +193,7 @@
       <workItem from="1581142177175" duration="7529000" />
       <workItem from="1581300037554" duration="4700000" />
       <workItem from="1581569885128" duration="395000" />
+      <workItem from="1581570316574" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -380,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581305835519</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adding maven framework to project">
+      <created>1581570570064</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1581570570064</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +430,8 @@
     <MESSAGE value="Adding BinarySearchTree insertion operation" />
     <MESSAGE value="Changing name of Insertion to BasicOperation" />
     <MESSAGE value="Adding BinarySearchTree delete operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding BinarySearchTree delete operation" />
+    <MESSAGE value="Adding maven framework to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding maven framework to project" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -458,10 +449,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1581146621336" />
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581570269425">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581570568708">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581570269425" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581570568708" />
     <state width="450" height="466" key="DebuggerActiveHint" timestamp="1581305311661">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
