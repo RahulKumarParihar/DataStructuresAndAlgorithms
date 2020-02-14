@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Adding all dependency to pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/BinarySearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/BinarySearchTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Class/BasicOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Class/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Class/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Interface/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinarySearchTree/Interface/Travesal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Interface/Travesal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/DepthFirstTraversalIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DepthFirstTraversalRecusive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/DepthFirstTraversalRecusive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/DiagonalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/DiagonalTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/MaxIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/MaxRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/MaxRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/SearchingIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Classes/SearchingRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/SearchingRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/BreathFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Interfaces/BreathFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/DepthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Interfaces/DepthFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Interfaces/Max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/BinaryTree/Interfaces/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Interfaces/Searching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Classes/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Classes/OperationIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Classes/OperationRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Classes/OperationRecursively.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/Interfaces/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Interfaces/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/LinkedList/LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/LinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rahulkumarpariharmailbox/Test/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +99,16 @@
       <recent name="com.rahulkumarpariharmailbox.BinarySearchTree.Class" />
       <recent name="com.rahulkumarpariharmailbox.BinaryTree" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.rahulkumarpariharmailbox.Test" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.LinkedList">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.rahulkumarpariharmailbox.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DataStructures" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -92,12 +120,12 @@
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rahulkumarpariharmailbox.Test.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rahulkumarpariharmailbox.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.rahulkumarpariharmailbox.Test.BinarySearchTree" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.BinarySearchTree" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,33 +135,22 @@
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rahulkumarpariharmailbox.Test.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rahulkumarpariharmailbox.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.rahulkumarpariharmailbox.Test.LinkedList" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.LinkedList" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList.addNewNodeAtEnd" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rahulkumarpariharmailbox.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rahulkumarpariharmailbox.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.rahulkumarpariharmailbox.Test.LinkedList" />
-      <option name="METHOD_NAME" value="addNewNodeAtEnd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.BinarySearchTree" />
+      <item itemvalue="JUnit.LinkedList" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LinkedList" />
@@ -442,22 +459,42 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581656709175">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581656709175" />
     <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1581043658632">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581043658632" />
+    <state x="499" y="194" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581656090995">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="194" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1581656090995" />
     <state x="400" y="107" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1581570040946">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="400" y="107" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834@0.0.1536.834" timestamp="1581570040946" />
-    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581146621336">
+    <state x="356" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581656067937">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1581146621336" />
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581570875445">
+    <state x="356" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1581656067937" />
+    <state x="566" y="277" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581656092902">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581570875445" />
+    <state x="566" y="277" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1581656092902" />
+    <state x="566" y="298" width="417" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581656062587">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="566" y="298" width="417" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.834@0.0.1536.834" timestamp="1581656062587" />
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581656636680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1581656636680" />
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581655868700">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581655868700" />
     <state width="450" height="466" key="DebuggerActiveHint" timestamp="1581305311661">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -470,22 +507,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576549459456" />
-    <state width="732" height="211" key="GridCell.Tab.0.bottom" timestamp="1581571407676">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1581656733568">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581571407676" />
-    <state width="732" height="211" key="GridCell.Tab.0.center" timestamp="1581571407676">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581656733568" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1581656733568">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581571407676" />
-    <state width="732" height="211" key="GridCell.Tab.0.left" timestamp="1581571407676">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581656733568" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1581656733567">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581571407676" />
-    <state width="732" height="211" key="GridCell.Tab.0.right" timestamp="1581571407676">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581656733567" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1581656733568">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581571407676" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581656733568" />
     <state width="739" height="264" key="GridCell.Tab.1.bottom" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
