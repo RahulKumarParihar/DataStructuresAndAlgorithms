@@ -20,11 +20,8 @@ public class BinarySearchTree {
 
     @Test
     public void InsertionTest() {
-        BinarySearchTreeNode root = null;
         int[] nodeValues = {10, 6, 13, 14, 18, 3, 7};
-        for (int i : nodeValues) {
-            root = operation.insert(root, i);
-        }
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
         List<Integer> result = traversal.InOrderTraversal(root);
         List<Integer> requiredResult = new ArrayList<>(Arrays.asList(3, 6, 7, 10, 13, 14, 18));
         assertThat(requiredResult, is(result));
@@ -32,11 +29,8 @@ public class BinarySearchTree {
 
     @Test
     public void DeleteWithNoChild() {
-        BinarySearchTreeNode root = null;
         int[] nodeValues = {13, 10, 19, 11, 7, 8, 9, 3, 14, 21, 23};
-        for (int i : nodeValues) {
-            root = operation.insert(root, i);
-        }
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
         root = operation.delete(root, 9);
         List<Integer> result = traversal.InOrderTraversal(root);
         List<Integer> requiredResult = new ArrayList<>(Arrays.asList(3, 7, 8, 10, 11, 13, 14, 19, 21, 23));
@@ -45,14 +39,51 @@ public class BinarySearchTree {
 
     @Test
     public void DeleteWithOneChild() {
-        BinarySearchTreeNode root = null;
         int[] nodeValues = {13, 10, 19, 11, 7, 8, 9, 3, 14, 21, 23};
-        for (int i : nodeValues) {
-            root = operation.insert(root, i);
-        }
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
         root = operation.delete(root, 8);
         List<Integer> result = traversal.InOrderTraversal(root);
         List<Integer> requiredResult = new ArrayList<>(Arrays.asList(3, 7, 9, 10, 11, 13, 14, 19, 21, 23));
         assertThat(requiredResult, is(result));
+    }
+
+    @Test
+    public void SuccessorIsLastLeftChild() {
+        int[] nodeValues = {20, 22, 8, 12, 14, 4};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        BinarySearchTreeNode successor = operation.inOrderSuccessor(root, 4);
+        assertThat(successor.data, is(8));
+    }
+
+    @Test
+    public void SuccessorNodeDoesNotExist() {
+        int[] nodeValues = {20};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        BinarySearchTreeNode successor = operation.inOrderSuccessor(root, 20);
+        assertThat(successor, is((BinarySearchTreeNode) null));
+    }
+
+    @Test
+    public void SuccessorIsRightChild() {
+        int[] nodeValues = {20, 22, 8, 12, 4, 14, 6};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        BinarySearchTreeNode successor = operation.inOrderSuccessor(root, 8);
+        assertThat(successor.data, is(12));
+    }
+
+    @Test
+    public void SuccessorIsLeftChild() {
+        int[] nodeValues = {20, 22, 8, 12, 4, 14, 10, 6};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        BinarySearchTreeNode successor = operation.inOrderSuccessor(root, 8);
+        assertThat(successor.data, is(10));
+    }
+
+    private BinarySearchTreeNode CreateBinarySearchTree(int[] nodes) {
+        BinarySearchTreeNode root = null;
+        for (int node : nodes) {
+            root = operation.insert(root, node);
+        }
+        return root;
     }
 }

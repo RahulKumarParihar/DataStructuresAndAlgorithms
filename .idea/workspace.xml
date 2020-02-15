@@ -3,23 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Class/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/BasicOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Class/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/DepthFirstTraversalIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/DepthFirstTraversalIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/DepthFirstTraversalRecusive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/DepthFirstTraversalRecusive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/DiagonalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/DiagonalTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/LevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/MaxIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/MaxIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/MaxRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/MaxRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/SearchingIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/SearchingIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Classes/SearchingRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/SearchingRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Execute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Classes/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Classes/OperationIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/OperationIteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Classes/OperationRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/OperationRecursively.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/BinarySearchTree/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstract/BinarySearchTree/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/BasicOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +14,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DataStructures" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,7 +82,7 @@
       <recent name="com.rahulkumarpariharmailbox.Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedList">
+  <component name="RunManager" selected="JUnit.BinarySearchTree">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -142,8 +131,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedList" />
         <item itemvalue="JUnit.BinarySearchTree" />
+        <item itemvalue="JUnit.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +186,7 @@
       <workItem from="1581300037554" duration="4700000" />
       <workItem from="1581569885128" duration="395000" />
       <workItem from="1581570316574" duration="1006000" />
-      <workItem from="1581744075687" duration="491000" />
+      <workItem from="1581744075687" duration="7170000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -395,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581744363739</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Changing the folder structure of the project">
+      <created>1581744607528</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1581744607528</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,10 +463,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581656709175" />
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1581043658632">
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1581748504008">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581043658632" />
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581748504008" />
     <state x="499" y="194" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581656090995">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -495,10 +491,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1581656636680" />
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581744359362">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581744604178">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581744359362" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581744604178" />
     <state width="450" height="466" key="DebuggerActiveHint" timestamp="1581305311661">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -511,22 +507,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576549459456" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1581744586891">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1581754745913">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581744586891" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1581744586890">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581754745913" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1581754745913">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581744586890" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1581744586890">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581754745913" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1581754745913">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581744586890" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1581744586891">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581754745913" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1581754745913">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581744586891" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581754745913" />
     <state width="739" height="264" key="GridCell.Tab.1.bottom" timestamp="1581311706864">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -555,6 +551,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581744077220" />
+    <state x="448" y="15" width="738" height="804" key="find.popup" timestamp="1581752953158">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="448" y="15" width="738" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1581752953158" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1581304958689">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

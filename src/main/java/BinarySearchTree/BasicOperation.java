@@ -71,6 +71,51 @@ public class BasicOperation implements Operation {
         return root;
     }
 
+    /**
+     * Find in-order successor of the node
+     *
+     * @param root     root of the binary search tree
+     * @param nodeData data of the node to find in order successor
+     * @return in order successor of the node
+     */
+    @Override
+    public BinarySearchTreeNode inOrderSuccessor(BinarySearchTreeNode root, int nodeData) {
+        BinarySearchTreeNode successorNode = null;
+
+        // If successorNode is the last left node
+        while (root.data != nodeData) {
+            if (root.data > nodeData) {
+                successorNode = root;
+                root = root.leftChild;
+            } else {
+                root = root.rightChild;
+            }
+        }
+
+        if (root.rightChild != null) {
+            root = root.rightChild;
+            while (root.leftChild != null) {
+                root = root.leftChild;
+            }
+            successorNode = root;
+        }
+
+        return successorNode;
+    }
+
+    /**
+     * Find in-order predecessor of the node
+     *
+     * @param root     root of the binary search tree
+     * @param nodeData data of the node to find in order predecessor
+     * @return in order predecessor of the node
+     */
+    @Override
+    public BinarySearchTreeNode inOrderPredecessor(BinarySearchTreeNode root, int nodeData) {
+        return null;
+    }
+
+    //<editor-fold desc="Private methods">
     private BinarySearchTreeNode findInsertPosition(BinarySearchTreeNode root, int nodeData) {
         BinarySearchTreeNode previousNode = root;
         while (root != null) {
@@ -101,4 +146,5 @@ public class BasicOperation implements Operation {
         }
         return null;
     }
+    //</editor-fold>
 }
