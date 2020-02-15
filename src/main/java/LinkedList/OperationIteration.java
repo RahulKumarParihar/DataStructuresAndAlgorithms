@@ -1,4 +1,4 @@
-package LinkedList.Classes;
+package LinkedList;
 
 import Abstract.LinkedList.Operation;
 

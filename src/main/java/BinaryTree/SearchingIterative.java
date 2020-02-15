@@ -1,7 +1,6 @@
-package BinaryTree.Classes;
+package BinaryTree;
 
 import Abstract.BinaryTree.Searching;
-import BinaryTree.BinaryTree;
 
 import java.util.Stack;
 

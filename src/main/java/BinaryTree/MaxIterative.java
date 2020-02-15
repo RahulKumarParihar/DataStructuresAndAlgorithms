@@ -1,7 +1,6 @@
-package BinaryTree.Classes;
+package BinaryTree;
 
 import Abstract.BinaryTree.Max;
-import BinaryTree.BinaryTree;
 
 import java.util.Stack;
 

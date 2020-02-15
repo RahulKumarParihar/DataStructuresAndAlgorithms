@@ -1,7 +1,6 @@
-package BinarySearchTree.Class;
+package BinarySearchTree;
 
 import Abstract.BinarySearchTree.Travesal;
-import BinarySearchTree.BinarySearchTreeNode;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;
