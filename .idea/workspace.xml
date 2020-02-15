@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/BinarySearchTree/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstract/BinarySearchTree/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/BasicOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/BinarySearchTree.java" afterDir="false" />
     </list>
@@ -187,6 +187,7 @@
       <workItem from="1581569885128" duration="395000" />
       <workItem from="1581570316574" duration="1006000" />
       <workItem from="1581744075687" duration="7170000" />
+      <workItem from="1581758674902" duration="5705000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -487,6 +488,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="566" y="298" width="417" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.834@0.0.1536.834" timestamp="1581656062587" />
+    <state x="545" y="248" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1581764773691">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="545" y="248" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1536.834@0.0.1536.834" timestamp="1581764773691" />
     <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581656636680">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -495,10 +500,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581744604178" />
-    <state width="450" height="466" key="DebuggerActiveHint" timestamp="1581305311661">
+    <state width="502" height="466" key="DebuggerActiveHint" timestamp="1581765611010">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="450" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1581305311661" />
+    <state width="502" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1581765611010" />
     <state x="147" y="66" key="DiffContextDialog" timestamp="1581570266558">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -507,38 +512,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576549459456" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1581754745913">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1581767037444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581754745913" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1581754745913">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581767037444" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1581767037444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581754745913" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1581754745913">
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581767037444" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1581767037443">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581754745913" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1581754745913">
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581767037443" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1581767037444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581754745913" />
-    <state width="739" height="264" key="GridCell.Tab.1.bottom" timestamp="1581311706864">
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581767037444" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1581767037444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
-    <state width="739" height="264" key="GridCell.Tab.1.center" timestamp="1581311706864">
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581767037444" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1581767037444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
-    <state width="739" height="264" key="GridCell.Tab.1.left" timestamp="1581311706864">
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581767037444" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1581767037444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
-    <state width="739" height="264" key="GridCell.Tab.1.right" timestamp="1581311706864">
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581767037444" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1581767037444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="739" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581311706864" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581767037444" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1579417106491">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -563,5 +568,16 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="191" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1575435105970" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/BinarySearchTree.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

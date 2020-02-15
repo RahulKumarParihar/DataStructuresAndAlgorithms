@@ -38,22 +38,50 @@ public class BasicOperation implements Operation {
         if (root != null) {
             BinarySearchTreeNode previousNode = findDeletePrevious(root, nodeDateToDelete);
             BinarySearchTreeNode deleteNode;
-            boolean isLeftChildPreviousNode = false;
+            boolean isLeftChild = false;
 
             if (previousNode.leftChild != null && previousNode.leftChild.data == nodeDateToDelete) {
                 deleteNode = previousNode.leftChild;
-                isLeftChildPreviousNode = true;
+                isLeftChild = true;
             } else {
                 deleteNode = previousNode.rightChild;
             }
 
             //If delete node has two childes
             if (deleteNode.leftChild != null && deleteNode.rightChild != null) {
-                //TODO if delete has two childes
+                BinarySearchTreeNode inOrderSuccessor = inOrderSuccessor(root, nodeDateToDelete);
+                if (inOrderSuccessor != null) {
+                    //inOrderSuccessor of the node is not the leaf node
+                    if (inOrderSuccessor.rightChild != null) {
+                        if (isLeftChild) {
+                            if (previousNode.leftChild.leftChild != null) {
+                                inOrderSuccessor.leftChild = previousNode.leftChild.leftChild;
+                            }
+                            previousNode.leftChild = inOrderSuccessor;
+                        } else {
+                            previousNode.rightChild = inOrderSuccessor;
+                        }
+                        //inOrderSuccessor of the node is the leaf node
+                    } else {
+                        deleteNode.data = inOrderSuccessor.data;
+                        BinarySearchTreeNode iterate = deleteNode.rightChild;
+                        previousNode = iterate;
+                        isLeftChild = false;
+                        while (iterate.data != inOrderSuccessor.data) {
+                            isLeftChild = true;
+                            previousNode = iterate;
+                            iterate = iterate.leftChild;
+                        }
+                        if (isLeftChild)
+                            previousNode.leftChild = null;
+                        else
+                            deleteNode.rightChild = null;
+                    }
+                }
 
                 //If delete node has one child
             } else if (deleteNode.leftChild != null || deleteNode.rightChild != null) {
-                if (isLeftChildPreviousNode) {
+                if (isLeftChild) {
                     previousNode.leftChild = deleteNode.leftChild != null ? deleteNode.leftChild : deleteNode.rightChild;
                 } else {
                     previousNode.rightChild = deleteNode.leftChild != null ? deleteNode.leftChild : deleteNode.rightChild;
@@ -61,7 +89,7 @@ public class BasicOperation implements Operation {
 
                 // if delete node has no child
             } else {
-                if (isLeftChildPreviousNode) {
+                if (isLeftChild) {
                     previousNode.leftChild = null;
                 } else {
                     previousNode.rightChild = null;
