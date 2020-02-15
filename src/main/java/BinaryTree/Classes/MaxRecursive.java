@@ -1,7 +1,7 @@
 package BinaryTree.Classes;
 
+import Abstract.BinaryTree.Max;
 import BinaryTree.BinaryTree;
-import BinaryTree.Interfaces.Max;
 
 public class MaxRecursive implements Max {
     /**

@@ -1,10 +1,10 @@
 package Test;
 
+import Abstract.BinarySearchTree.Operation;
+import Abstract.BinarySearchTree.Travesal;
 import BinarySearchTree.BinarySearchTreeNode;
 import BinarySearchTree.Class.BasicOperation;
 import BinarySearchTree.Class.Traversal;
-import BinarySearchTree.Interface.Operation;
-import BinarySearchTree.Interface.Travesal;
 import org.junit.Test;
 
 import java.util.ArrayList;

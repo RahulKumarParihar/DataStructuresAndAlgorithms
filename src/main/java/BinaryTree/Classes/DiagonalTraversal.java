@@ -1,7 +1,7 @@
 package BinaryTree.Classes;
 
+import Abstract.BinaryTree.BreathFirstTraversal;
 import BinaryTree.BinaryTree;
-import BinaryTree.Interfaces.BreathFirstTraversal;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;

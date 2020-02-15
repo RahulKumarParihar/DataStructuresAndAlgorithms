@@ -1,7 +1,7 @@
 package BinaryTree.Classes;
 
+import Abstract.BinaryTree.DepthFirstTraversal;
 import BinaryTree.BinaryTree;
-import BinaryTree.Interfaces.DepthFirstTraversal;
 
 import java.util.ArrayList;
 import java.util.List;

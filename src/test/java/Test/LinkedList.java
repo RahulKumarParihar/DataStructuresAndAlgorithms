@@ -1,9 +1,9 @@
 package Test;
 
+import Abstract.LinkedList.Operation;
 import LinkedList.Classes.Insert;
 import LinkedList.Classes.OperationIteration;
 import LinkedList.Classes.OperationRecursively;
-import LinkedList.Interfaces.Operation;
 import org.junit.Test;
 
 import java.util.ArrayList;

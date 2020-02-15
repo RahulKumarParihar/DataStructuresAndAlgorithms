@@ -1,4 +1,4 @@
-package BinarySearchTree.Interface;
+package Abstract.BinarySearchTree;
 
 import BinarySearchTree.BinarySearchTreeNode;
 
