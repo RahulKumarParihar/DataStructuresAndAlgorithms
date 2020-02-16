@@ -1,4 +1,4 @@
-package BinaryTree.Interfaces;
+package Abstract.BinaryTree;
 
 import BinaryTree.BinaryTree;
 

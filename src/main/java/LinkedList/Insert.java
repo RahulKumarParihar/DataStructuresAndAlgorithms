@@ -1,6 +1,4 @@
-package LinkedList.Classes;
-
-import LinkedList.LinkedLists;
+package LinkedList;
 
 public class Insert {
     /**

@@ -1,8 +1,6 @@
 package LinkedList;
 
-import LinkedList.Classes.Insert;
-import LinkedList.Classes.OperationIteration;
-import LinkedList.Interfaces.Operation;
+import Abstract.LinkedList.Operation;
 import LinkedList.LinkedLists.Node;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package BinarySearchTree.Interface;
+package Abstract.BinarySearchTree;
 
 import BinarySearchTree.BinarySearchTreeNode;
 
@@ -20,4 +20,22 @@ public interface Operation {
      * @return root of the binary search tree
      */
     BinarySearchTreeNode delete(BinarySearchTreeNode root, int nodeDateToDelete);
+
+    /**
+     * Find in-order successor of the node
+     *
+     * @param root     root of the binary search tree
+     * @param nodeData data of the node to find in order successor
+     * @return in order successor of the node
+     */
+    BinarySearchTreeNode inOrderSuccessor(BinarySearchTreeNode root, int nodeData);
+
+    /**
+     * Find in-order predecessor of the node
+     *
+     * @param root     root of the binary search tree
+     * @param nodeData data of the node to find in order predecessor
+     * @return in order predecessor of the node
+     */
+    BinarySearchTreeNode inOrderPredecessor(BinarySearchTreeNode root, int nodeData);
 }
