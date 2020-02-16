@@ -15,8 +15,8 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class BinarySearchTree {
-    private Operation operation = new BasicOperation();
-    private Travesal traversal = new Traversal();
+    private final Operation operation = new BasicOperation();
+    private final Travesal traversal = new Traversal();
 
     @Test
     public void InsertionTest() {
@@ -117,6 +117,38 @@ public class BinarySearchTree {
         List<Integer> result = traversal.InOrderTraversal(root);
         List<Integer> requiredResult = new ArrayList<>(Arrays.asList(4, 6, 8, 12, 14, 20, 21, 23, 24));
         assertThat(result, is(requiredResult));
+    }
+
+    @Test
+    public void PredecessorLeafNode() {
+        int[] nodeValues = {8, 3, 10, 1, 6, 4, 7};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        BinarySearchTreeNode predecessor = operation.inOrderPredecessor(root, 7);
+        assertThat(predecessor.data, is(6));
+    }
+
+    @Test
+    public void PredecessorLeftChild() {
+        int[] nodeValues = {8, 3, 10, 1, 6, 4, 7};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        BinarySearchTreeNode predecessor = operation.inOrderPredecessor(root, 6);
+        assertThat(predecessor.data, is(4));
+    }
+
+    @Test
+    public void PredecessorLeftChildRightChild() {
+        int[] nodeValues = {8, 3, 10, 1, 6, 4, 7, 5};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        BinarySearchTreeNode predecessor = operation.inOrderPredecessor(root, 6);
+        assertThat(predecessor.data, is(5));
+    }
+
+    @Test
+    public void PredecessorNull() {
+        int[] nodeValues = {8, 3, 10, 1, 6, 4, 7, 5};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        BinarySearchTreeNode predecessor = operation.inOrderPredecessor(root, 15);
+        assertThat(predecessor, is((BinarySearchTreeNode) null));
     }
 
     private BinarySearchTreeNode CreateBinarySearchTree(int[] nodes) {

@@ -110,8 +110,8 @@ public class BasicOperation implements Operation {
     public BinarySearchTreeNode inOrderSuccessor(BinarySearchTreeNode root, int nodeData) {
         BinarySearchTreeNode successorNode = null;
 
-        // If successorNode is the last left node
-        while (root.data != nodeData) {
+        // successorNode of a left node
+        while (root != null && root.data != nodeData) {
             if (root.data > nodeData) {
                 successorNode = root;
                 root = root.leftChild;
@@ -119,6 +119,10 @@ public class BasicOperation implements Operation {
                 root = root.rightChild;
             }
         }
+
+        // finding successorNode of a element which doesn't exits
+        if (root == null)
+            return null;
 
         if (root.rightChild != null) {
             root = root.rightChild;
@@ -140,7 +144,32 @@ public class BasicOperation implements Operation {
      */
     @Override
     public BinarySearchTreeNode inOrderPredecessor(BinarySearchTreeNode root, int nodeData) {
-        return null;
+        BinarySearchTreeNode predecessor = null;
+
+        // Predecessor of a leaf node
+        while (root != null && root.data != nodeData) {
+            if (root.data > nodeData) {
+                root = root.leftChild;
+            } else {
+                predecessor = root;
+                root = root.rightChild;
+            }
+        }
+
+        // Find predecessor of a element which doesn't exists
+        if (root == null)
+            return null;
+
+        if (root.leftChild != null) {
+            root = root.leftChild;
+
+            while (root.rightChild != null) {
+                root = root.rightChild;
+            }
+            predecessor = root;
+        }
+
+        return predecessor;
     }
 
     //<editor-fold desc="Private methods">
