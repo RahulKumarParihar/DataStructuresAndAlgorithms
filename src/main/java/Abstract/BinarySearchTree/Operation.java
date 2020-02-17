@@ -1,6 +1,6 @@
 package Abstract.BinarySearchTree;
 
-import Structure.BinarySearchTreeNode;
+import Structure.TreeNode;
 
 public interface Operation {
     /**
@@ -10,7 +10,7 @@ public interface Operation {
      * @param nodeData data of the node to insert
      * @return root of the binary search tree
      */
-    BinarySearchTreeNode insert(BinarySearchTreeNode root, int nodeData);
+    TreeNode insert(TreeNode root, int nodeData);
 
     /**
      * Removes a node from binary search tree
@@ -19,7 +19,7 @@ public interface Operation {
      * @param nodeDateToDelete data of the node to delete
      * @return root of the binary search tree
      */
-    BinarySearchTreeNode delete(BinarySearchTreeNode root, int nodeDateToDelete);
+    TreeNode delete(TreeNode root, int nodeDateToDelete);
 
     /**
      * Find in-order successor of the node
@@ -28,7 +28,7 @@ public interface Operation {
      * @param nodeData data of the node to find in order successor
      * @return in order successor of the node
      */
-    BinarySearchTreeNode inOrderSuccessor(BinarySearchTreeNode root, int nodeData);
+    TreeNode inOrderSuccessor(TreeNode root, int nodeData);
 
     /**
      * Find in-order predecessor of the node
@@ -37,7 +37,7 @@ public interface Operation {
      * @param nodeData data of the node to find in order predecessor
      * @return in order predecessor of the node
      */
-    BinarySearchTreeNode inOrderPredecessor(BinarySearchTreeNode root, int nodeData);
+    TreeNode inOrderPredecessor(TreeNode root, int nodeData);
 
     /**
      * Check if Binary Search tree is valid or not
@@ -45,5 +45,5 @@ public interface Operation {
      * @param root root of the binary search tree
      * @return True if is valid binary search tree else false
      */
-    boolean validBST(BinarySearchTreeNode root);
+    boolean validBST(TreeNode root);
 }
