@@ -2,7 +2,7 @@ package Abstract.LinkedList;
 
 import java.util.List;
 
-import static LinkedList.LinkedLists.Node;
+import static Structure.LinkedLists.Node;
 
 public interface Operation {
 

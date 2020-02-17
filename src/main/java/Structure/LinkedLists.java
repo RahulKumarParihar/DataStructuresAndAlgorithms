@@ -1,4 +1,4 @@
-package LinkedList;
+package Structure;
 
 /**
  * Linked Lists Class

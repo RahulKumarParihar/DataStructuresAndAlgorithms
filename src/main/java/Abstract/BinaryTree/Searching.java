@@ -1,6 +1,6 @@
 package Abstract.BinaryTree;
 
-import BinaryTree.BinaryTree;
+import Structure.BinaryTree;
 
 public interface Searching {
 
