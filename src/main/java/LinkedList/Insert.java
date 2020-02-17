@@ -1,5 +1,7 @@
 package LinkedList;
 
+import Structure.LinkedLists;
+
 public class Insert {
     /**
      * Add node to the end of the linked list

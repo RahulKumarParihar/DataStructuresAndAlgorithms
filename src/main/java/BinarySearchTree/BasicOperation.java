@@ -1,6 +1,7 @@
 package BinarySearchTree;
 
 import Abstract.BinarySearchTree.Operation;
+import Structure.BinarySearchTreeNode;
 
 public class BasicOperation implements Operation {
     /**

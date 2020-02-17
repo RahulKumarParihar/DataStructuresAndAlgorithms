@@ -1,7 +1,7 @@
 package LinkedList;
 
 import Abstract.LinkedList.Operation;
-import LinkedList.LinkedLists.Node;
+import Structure.LinkedLists.Node;
 
 import java.util.List;
 

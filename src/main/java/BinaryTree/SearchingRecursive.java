@@ -1,6 +1,7 @@
 package BinaryTree;
 
 import Abstract.BinaryTree.Searching;
+import Structure.BinaryTree;
 
 public class SearchingRecursive implements Searching {
     /**

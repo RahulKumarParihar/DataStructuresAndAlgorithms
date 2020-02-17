@@ -1,6 +1,6 @@
 package Abstract.BinarySearchTree;
 
-import BinarySearchTree.BinarySearchTreeNode;
+import Structure.BinarySearchTreeNode;
 
 public interface Operation {
     /**
