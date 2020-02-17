@@ -38,4 +38,12 @@ public interface Operation {
      * @return in order predecessor of the node
      */
     BinarySearchTreeNode inOrderPredecessor(BinarySearchTreeNode root, int nodeData);
+
+    /**
+     * Check if Binary Search tree is valid or not
+     *
+     * @param root root of the binary search tree
+     * @return True if is valid binary search tree else false
+     */
+    boolean validBST(BinarySearchTreeNode root);
 }

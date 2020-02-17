@@ -18,6 +18,7 @@ public class BinarySearchTree {
     private final Operation operation = new BasicOperation();
     private final Travesal traversal = new Traversal();
 
+    //<editor-fold desc="Create Test Cases">
     @Test
     public void InsertionTest() {
         int[] nodeValues = {10, 6, 13, 14, 18, 3, 7};
@@ -26,7 +27,9 @@ public class BinarySearchTree {
         List<Integer> requiredResult = new ArrayList<>(Arrays.asList(3, 6, 7, 10, 13, 14, 18));
         assertThat(requiredResult, is(result));
     }
+    //</editor-fold>
 
+    //<editor-fold desc="Successor Test Cases">
     @Test
     public void SuccessorIsLastLeftChild() {
         int[] nodeValues = {20, 22, 8, 12, 14, 4};
@@ -58,7 +61,9 @@ public class BinarySearchTree {
         BinarySearchTreeNode successor = operation.inOrderSuccessor(root, 8);
         assertThat(successor.data, is(10));
     }
+    //</editor-fold>
 
+    //<editor-fold desc="Delete Test Cases">
     @Test
     public void DeleteWithNoChild() {
         int[] nodeValues = {13, 10, 19, 11, 7, 8, 9, 3, 14, 21, 23};
@@ -118,7 +123,9 @@ public class BinarySearchTree {
         List<Integer> requiredResult = new ArrayList<>(Arrays.asList(4, 6, 8, 12, 14, 20, 21, 23, 24));
         assertThat(result, is(requiredResult));
     }
+    //</editor-fold>
 
+    //<editor-fold desc="Predecessor test cases">
     @Test
     public void PredecessorLeafNode() {
         int[] nodeValues = {8, 3, 10, 1, 6, 4, 7};
@@ -150,7 +157,50 @@ public class BinarySearchTree {
         BinarySearchTreeNode predecessor = operation.inOrderPredecessor(root, 15);
         assertThat(predecessor, is((BinarySearchTreeNode) null));
     }
+    //</editor-fold>
 
+    //<editor-fold desc="ValidBST test cases">
+    @Test
+    public void ValidBSTSingleNode() {
+        int[] nodeValues = {8};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        boolean isValid = operation.validBST(root);
+        assertThat(isValid, is(true));
+    }
+
+    @Test
+    public void ValidBSTCreate() {
+        int[] nodeValues = {8, 9, 4, 5, 6, 7};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        boolean isValid = operation.validBST(root);
+        assertThat(isValid, is(true));
+    }
+
+    @Test
+    public void ValidBSTSingleRepeatingNode() {
+        int[] nodeValues = {8, 8, 6};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        boolean isValid = operation.validBST(root);
+        assertThat(isValid, is(false));
+    }
+
+    @Test
+    public void ValidBSTRepeatingNode() {
+        int[] nodeValues = {8, 8, 8};
+        BinarySearchTreeNode root = CreateBinarySearchTree(nodeValues);
+        boolean isValid = operation.validBST(root);
+        assertThat(isValid, is(false));
+    }
+
+    @Test
+    public void ValidBSTEmpty() {
+        BinarySearchTreeNode root = null;
+        boolean isValid = operation.validBST(root);
+        assertThat(isValid, is(true));
+    }
+    //</editor-fold>
+
+    //<editor-fold desc="Private method">
     private BinarySearchTreeNode CreateBinarySearchTree(int[] nodes) {
         BinarySearchTreeNode root = null;
         for (int node : nodes) {
@@ -158,4 +208,5 @@ public class BinarySearchTree {
         }
         return root;
     }
+    //</editor-fold>
 }

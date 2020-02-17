@@ -172,6 +172,17 @@ public class BasicOperation implements Operation {
         return predecessor;
     }
 
+    /**
+     * Check if Binary Search tree is valid or not
+     *
+     * @param root root of the binary search tree
+     * @return True if is valid binary search tree else false
+     */
+    @Override
+    public boolean validBST(BinarySearchTreeNode root) {
+        return isValidHelper(root, null, null);
+    }
+
     //<editor-fold desc="Private methods">
     private BinarySearchTreeNode findInsertPosition(BinarySearchTreeNode root, int nodeData) {
         BinarySearchTreeNode previousNode = root;
@@ -202,6 +213,21 @@ public class BasicOperation implements Operation {
             }
         }
         return null;
+    }
+
+    private boolean isValidHelper(BinarySearchTreeNode node, Integer maxRange, Integer minRange) {
+        if (node == null)
+            return true;
+
+        if (maxRange != null && node.data >= maxRange) {
+            return false;
+        }
+
+        if (minRange != null && minRange >= node.data) {
+            return false;
+        }
+
+        return isValidHelper(node.leftChild, node.data, minRange) && isValidHelper(node.rightChild, maxRange, node.data);
     }
     //</editor-fold>
 }
