@@ -1,10 +1,9 @@
 package BinaryTree;
 
-import BinaryTree.Classes.*;
-import BinaryTree.Interfaces.BreathFirstTraversal;
-import BinaryTree.Interfaces.DepthFirstTraversal;
-import BinaryTree.Interfaces.Max;
-import BinaryTree.Interfaces.Searching;
+import Abstract.BinaryTree.BreathFirstTraversal;
+import Abstract.BinaryTree.DepthFirstTraversal;
+import Abstract.BinaryTree.Max;
+import Abstract.BinaryTree.Searching;
 
 import java.util.List;
 import java.util.Scanner;
