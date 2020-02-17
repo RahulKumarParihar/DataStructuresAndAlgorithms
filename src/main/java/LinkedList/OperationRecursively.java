@@ -5,7 +5,7 @@ import Abstract.LinkedList.Operation;
 import java.util.LinkedList;
 import java.util.List;
 
-import static LinkedList.LinkedLists.Node;
+import static Structure.LinkedLists.Node;
 
 public class OperationRecursively implements Operation {
     /**

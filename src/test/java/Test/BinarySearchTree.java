@@ -3,8 +3,8 @@ package Test;
 import Abstract.BinarySearchTree.Operation;
 import Abstract.BinarySearchTree.Travesal;
 import BinarySearchTree.BasicOperation;
-import BinarySearchTree.BinarySearchTreeNode;
 import BinarySearchTree.Traversal;
+import Structure.BinarySearchTreeNode;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -1,11 +1,11 @@
-package BinaryTree;
+package Structure;
 
 /**
  * Binary Tree Class
  */
 public class BinaryTree {
     /* contains address of the root node */
-    Node root;
+    public Node root;
 
     /**
      * Nested Node class
