@@ -1,7 +1,7 @@
 package BinarySearchTree;
 
 import Abstract.BinarySearchTree.Operation;
-import Structure.BinarySearchTreeNode;
+import Structure.TreeNode;
 
 public class BasicOperation implements Operation {
     /**
@@ -12,16 +12,16 @@ public class BasicOperation implements Operation {
      * @return root of the binary search tree
      */
     @Override
-    public BinarySearchTreeNode insert(BinarySearchTreeNode root, int nodeData) {
+    public TreeNode insert(TreeNode root, int nodeData) {
         if (root == null) {
-            root = new BinarySearchTreeNode(nodeData);
+            root = new TreeNode(nodeData);
         } else {
-            BinarySearchTreeNode position = root;
+            TreeNode position = root;
             position = findInsertPosition(position, nodeData);
             if (position.data > nodeData) {
-                position.leftChild = new BinarySearchTreeNode(nodeData);
+                position.leftChild = new TreeNode(nodeData);
             } else {
-                position.rightChild = new BinarySearchTreeNode(nodeData);
+                position.rightChild = new TreeNode(nodeData);
             }
         }
         return root;
@@ -35,10 +35,10 @@ public class BasicOperation implements Operation {
      * @return root of the binary search tree
      */
     @Override
-    public BinarySearchTreeNode delete(BinarySearchTreeNode root, int nodeDateToDelete) {
+    public TreeNode delete(TreeNode root, int nodeDateToDelete) {
         if (root != null) {
-            BinarySearchTreeNode previousNode = findDeletePrevious(root, nodeDateToDelete);
-            BinarySearchTreeNode deleteNode;
+            TreeNode previousNode = findDeletePrevious(root, nodeDateToDelete);
+            TreeNode deleteNode;
             boolean isLeftChild = false;
 
             if (previousNode.leftChild != null && previousNode.leftChild.data == nodeDateToDelete) {
@@ -50,7 +50,7 @@ public class BasicOperation implements Operation {
 
             //If delete node has two childes
             if (deleteNode.leftChild != null && deleteNode.rightChild != null) {
-                BinarySearchTreeNode inOrderSuccessor = inOrderSuccessor(root, nodeDateToDelete);
+                TreeNode inOrderSuccessor = inOrderSuccessor(root, nodeDateToDelete);
                 if (inOrderSuccessor != null) {
                     //inOrderSuccessor of the node is not the leaf node
                     if (inOrderSuccessor.rightChild != null) {
@@ -65,7 +65,7 @@ public class BasicOperation implements Operation {
                         //inOrderSuccessor of the node is the leaf node
                     } else {
                         deleteNode.data = inOrderSuccessor.data;
-                        BinarySearchTreeNode iterate = deleteNode.rightChild;
+                        TreeNode iterate = deleteNode.rightChild;
                         previousNode = iterate;
                         isLeftChild = false;
                         while (iterate.data != inOrderSuccessor.data) {
@@ -108,8 +108,8 @@ public class BasicOperation implements Operation {
      * @return in order successor of the node
      */
     @Override
-    public BinarySearchTreeNode inOrderSuccessor(BinarySearchTreeNode root, int nodeData) {
-        BinarySearchTreeNode successorNode = null;
+    public TreeNode inOrderSuccessor(TreeNode root, int nodeData) {
+        TreeNode successorNode = null;
 
         // successorNode of a left node
         while (root != null && root.data != nodeData) {
@@ -144,8 +144,8 @@ public class BasicOperation implements Operation {
      * @return in order predecessor of the node
      */
     @Override
-    public BinarySearchTreeNode inOrderPredecessor(BinarySearchTreeNode root, int nodeData) {
-        BinarySearchTreeNode predecessor = null;
+    public TreeNode inOrderPredecessor(TreeNode root, int nodeData) {
+        TreeNode predecessor = null;
 
         // Predecessor of a leaf node
         while (root != null && root.data != nodeData) {
@@ -180,13 +180,13 @@ public class BasicOperation implements Operation {
      * @return True if is valid binary search tree else false
      */
     @Override
-    public boolean validBST(BinarySearchTreeNode root) {
+    public boolean validBST(TreeNode root) {
         return isValidHelper(root, null, null);
     }
 
     //<editor-fold desc="Private methods">
-    private BinarySearchTreeNode findInsertPosition(BinarySearchTreeNode root, int nodeData) {
-        BinarySearchTreeNode previousNode = root;
+    private TreeNode findInsertPosition(TreeNode root, int nodeData) {
+        TreeNode previousNode = root;
         while (root != null) {
             if (root.data > nodeData) {
                 previousNode = root;
@@ -200,8 +200,8 @@ public class BasicOperation implements Operation {
         return previousNode;
     }
 
-    private BinarySearchTreeNode findDeletePrevious(BinarySearchTreeNode root, int nodeDataToDelete) {
-        BinarySearchTreeNode previousNode = null;
+    private TreeNode findDeletePrevious(TreeNode root, int nodeDataToDelete) {
+        TreeNode previousNode = null;
         while (root != null) {
             if (root.data == nodeDataToDelete) {
                 return previousNode;
@@ -216,7 +216,7 @@ public class BasicOperation implements Operation {
         return null;
     }
 
-    private boolean isValidHelper(BinarySearchTreeNode node, Integer maxRange, Integer minRange) {
+    private boolean isValidHelper(TreeNode node, Integer maxRange, Integer minRange) {
         if (node == null)
             return true;
 
