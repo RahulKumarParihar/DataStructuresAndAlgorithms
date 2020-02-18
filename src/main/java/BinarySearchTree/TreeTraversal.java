@@ -1,17 +1,17 @@
 package BinarySearchTree;
 
-import Abstract.BinarySearchTree.Travesal;
+import Abstract.BinarySearchTree.Traversal;
 import Structure.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Traversal implements Travesal {
+public class TreeTraversal<T> implements Traversal<T> {
     @Override
-    public List<Integer> InOrderTraversal(TreeNode root) {
-        List<Integer> result = new LinkedList<>();
-        ArrayDeque<TreeNode> stack = new ArrayDeque<>();
+    public List<T> InOrderTraversal(TreeNode<T> root) {
+        List<T> result = new LinkedList<>();
+        ArrayDeque<TreeNode<T>> stack = new ArrayDeque<>();
 
         while (true) {
             while (root != null) {

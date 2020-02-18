@@ -3,7 +3,7 @@ package BinarySearchTree;
 import Abstract.BinarySearchTree.Operation;
 import Structure.TreeNode;
 
-public class BasicOperation implements Operation {
+public class BasicOperation<T extends Comparable<T>> implements Operation<T> {
     /**
      * Insert a node to binary search tree
      *
@@ -12,13 +12,13 @@ public class BasicOperation implements Operation {
      * @return root of the binary search tree
      */
     @Override
-    public TreeNode insert(TreeNode root, int nodeData) {
+    public TreeNode<T> insert(TreeNode<T> root, T nodeData) {
         if (root == null) {
             root = new TreeNode(nodeData);
         } else {
-            TreeNode position = root;
+            TreeNode<T> position = root;
             position = findInsertPosition(position, nodeData);
-            if (position.data > nodeData) {
+            if (position.data.compareTo(nodeData) > 0) {
                 position.leftChild = new TreeNode(nodeData);
             } else {
                 position.rightChild = new TreeNode(nodeData);
@@ -35,10 +35,10 @@ public class BasicOperation implements Operation {
      * @return root of the binary search tree
      */
     @Override
-    public TreeNode delete(TreeNode root, int nodeDateToDelete) {
+    public TreeNode<T> delete(TreeNode<T> root, T nodeDateToDelete) {
         if (root != null) {
-            TreeNode previousNode = findDeletePrevious(root, nodeDateToDelete);
-            TreeNode deleteNode;
+            TreeNode<T> previousNode = findDeletePrevious(root, nodeDateToDelete);
+            TreeNode<T> deleteNode;
             boolean isLeftChild = false;
 
             if (previousNode.leftChild != null && previousNode.leftChild.data == nodeDateToDelete) {
@@ -50,7 +50,7 @@ public class BasicOperation implements Operation {
 
             //If delete node has two childes
             if (deleteNode.leftChild != null && deleteNode.rightChild != null) {
-                TreeNode inOrderSuccessor = inOrderSuccessor(root, nodeDateToDelete);
+                TreeNode<T> inOrderSuccessor = inOrderSuccessor(root, nodeDateToDelete);
                 if (inOrderSuccessor != null) {
                     //inOrderSuccessor of the node is not the leaf node
                     if (inOrderSuccessor.rightChild != null) {
@@ -65,7 +65,7 @@ public class BasicOperation implements Operation {
                         //inOrderSuccessor of the node is the leaf node
                     } else {
                         deleteNode.data = inOrderSuccessor.data;
-                        TreeNode iterate = deleteNode.rightChild;
+                        TreeNode<T> iterate = deleteNode.rightChild;
                         previousNode = iterate;
                         isLeftChild = false;
                         while (iterate.data != inOrderSuccessor.data) {
@@ -108,12 +108,12 @@ public class BasicOperation implements Operation {
      * @return in order successor of the node
      */
     @Override
-    public TreeNode inOrderSuccessor(TreeNode root, int nodeData) {
-        TreeNode successorNode = null;
+    public TreeNode<T> inOrderSuccessor(TreeNode<T> root, T nodeData) {
+        TreeNode<T> successorNode = null;
 
         // successorNode of a left node
         while (root != null && root.data != nodeData) {
-            if (root.data > nodeData) {
+            if (root.data.compareTo(nodeData) > 0) {
                 successorNode = root;
                 root = root.leftChild;
             } else {
@@ -144,12 +144,12 @@ public class BasicOperation implements Operation {
      * @return in order predecessor of the node
      */
     @Override
-    public TreeNode inOrderPredecessor(TreeNode root, int nodeData) {
-        TreeNode predecessor = null;
+    public TreeNode<T> inOrderPredecessor(TreeNode<T> root, T nodeData) {
+        TreeNode<T> predecessor = null;
 
         // Predecessor of a leaf node
         while (root != null && root.data != nodeData) {
-            if (root.data > nodeData) {
+            if (root.data.compareTo(nodeData) > 0) {
                 root = root.leftChild;
             } else {
                 predecessor = root;
@@ -180,15 +180,15 @@ public class BasicOperation implements Operation {
      * @return True if is valid binary search tree else false
      */
     @Override
-    public boolean validBST(TreeNode root) {
+    public boolean validBST(TreeNode<T> root) {
         return isValidHelper(root, null, null);
     }
 
     //<editor-fold desc="Private methods">
-    private TreeNode findInsertPosition(TreeNode root, int nodeData) {
-        TreeNode previousNode = root;
+    private TreeNode<T> findInsertPosition(TreeNode<T> root, T nodeData) {
+        TreeNode<T> previousNode = root;
         while (root != null) {
-            if (root.data > nodeData) {
+            if (root.data.compareTo(nodeData) > 0) {
                 previousNode = root;
                 root = root.leftChild;
 
@@ -200,12 +200,12 @@ public class BasicOperation implements Operation {
         return previousNode;
     }
 
-    private TreeNode findDeletePrevious(TreeNode root, int nodeDataToDelete) {
-        TreeNode previousNode = null;
+    private TreeNode<T> findDeletePrevious(TreeNode<T> root, T nodeDataToDelete) {
+        TreeNode<T> previousNode = null;
         while (root != null) {
             if (root.data == nodeDataToDelete) {
                 return previousNode;
-            } else if (root.data > nodeDataToDelete) {
+            } else if (root.data.compareTo(nodeDataToDelete) > 0) {
                 previousNode = root;
                 root = root.leftChild;
             } else {
@@ -216,15 +216,15 @@ public class BasicOperation implements Operation {
         return null;
     }
 
-    private boolean isValidHelper(TreeNode node, Integer maxRange, Integer minRange) {
+    private boolean isValidHelper(TreeNode<T> node, T maxRange, T minRange) {
         if (node == null)
             return true;
 
-        if (maxRange != null && node.data >= maxRange) {
+        if (maxRange != null && node.data.compareTo(maxRange) >= 0) {
             return false;
         }
 
-        if (minRange != null && minRange >= node.data) {
+        if (minRange != null && minRange.compareTo(node.data) >= 0) {
             return false;
         }
 
