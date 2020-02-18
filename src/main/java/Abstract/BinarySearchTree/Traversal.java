@@ -4,6 +4,6 @@ import Structure.TreeNode;
 
 import java.util.List;
 
-public interface Travesal {
-    List<Integer> InOrderTraversal(TreeNode root);
+public interface Traversal<T> {
+    List<T> InOrderTraversal(TreeNode<T> root);
 }
