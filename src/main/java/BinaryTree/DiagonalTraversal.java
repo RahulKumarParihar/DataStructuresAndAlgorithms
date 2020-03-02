@@ -1,7 +1,7 @@
 package BinaryTree;
 
 import Abstract.BinaryTree.BreathFirstTraversal;
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;
@@ -15,14 +15,14 @@ public class DiagonalTraversal implements BreathFirstTraversal {
      * @param root root node of the tree
      * @return diagonal order traversal with different list
      */
-    public List<List<Integer>> traversal(BinaryTree.Node root) {
+    public List<List<Integer>> traversal(TreeNode<Integer> root) {
         List<List<Integer>> result = new LinkedList<>();
         if (root == null) {
             return result;
         }
         List<Integer> diagonal = new LinkedList<>();
-        Queue<BinaryTree.Node> queue = new ArrayDeque<>();
-        BinaryTree.Node breakNode = new BinaryTree().new Node(Integer.MIN_VALUE);
+        Queue<TreeNode<Integer>> queue = new ArrayDeque<>();
+        TreeNode<Integer> breakNode = new TreeNode<>(Integer.MIN_VALUE);
         queue.offer(root);
         queue.offer(breakNode);
         while (!queue.isEmpty()) {

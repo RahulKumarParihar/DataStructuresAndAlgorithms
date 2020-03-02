@@ -1,7 +1,7 @@
 package BinaryTree;
 
 import Abstract.BinaryTree.DepthFirstTraversal;
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> PreOrderTraversal(BinaryTree.Node root) {
+    public List<Integer> PreOrderTraversal(TreeNode<Integer> root) {
         List<Integer> result = new ArrayList<>();
         PreOrderHelper(root, result);
         return result;
@@ -27,7 +27,7 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> InOrderTraversal(BinaryTree.Node root) {
+    public List<Integer> InOrderTraversal(TreeNode<Integer> root) {
         List<Integer> result = new ArrayList<>();
         InOrderHelper(root, result);
         return result;
@@ -40,13 +40,13 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> PostOrderTraversal(BinaryTree.Node root) {
+    public List<Integer> PostOrderTraversal(TreeNode<Integer> root) {
         List<Integer> result = new ArrayList<>();
         PostOrderHelper(root, result);
         return result;
     }
 
-    private void PreOrderHelper(BinaryTree.Node root, List<Integer> result) {
+    private void PreOrderHelper(TreeNode<Integer> root, List<Integer> result) {
         if (root == null)
             return;
 
@@ -57,7 +57,7 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
         PreOrderHelper(root.rightChild, result);
     }
 
-    private void InOrderHelper(BinaryTree.Node root, List<Integer> result) {
+    private void InOrderHelper(TreeNode<Integer> root, List<Integer> result) {
         if (root == null)
             return;
 
@@ -68,7 +68,7 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
         InOrderHelper(root.rightChild, result);
     }
 
-    private void PostOrderHelper(BinaryTree.Node root, List<Integer> result) {
+    private void PostOrderHelper(TreeNode<Integer> root, List<Integer> result) {
         if (root == null)
             return;
 

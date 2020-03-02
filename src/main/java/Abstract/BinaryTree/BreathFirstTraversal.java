@@ -1,6 +1,6 @@
 package Abstract.BinaryTree;
 
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.List;
 
@@ -11,5 +11,5 @@ public interface BreathFirstTraversal {
      * @param root root node of the tree
      * @return List of list
      */
-    List<List<Integer>> traversal(BinaryTree.Node root);
+    List<List<Integer>> traversal(TreeNode<Integer> root);
 }

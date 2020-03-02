@@ -1,7 +1,7 @@
 package BinaryTree;
 
 import Abstract.BinaryTree.BreathFirstTraversal;
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -15,14 +15,14 @@ public class LevelOrderTraversal implements BreathFirstTraversal {
      * @param root root node of the tree
      * @return List of list of integers
      */
-    public List<List<Integer>> traversal(BinaryTree.Node root) {
+    public List<List<Integer>> traversal(TreeNode<Integer> root) {
         List<List<Integer>> result = new ArrayList<>();
 
         if (root == null)
             return result;
 
         List<Integer> row;
-        Queue<BinaryTree.Node> queue = new ArrayDeque<>();
+        Queue<TreeNode<Integer>> queue = new ArrayDeque<>();
 
         queue.offer(root);
 

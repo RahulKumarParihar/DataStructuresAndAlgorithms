@@ -1,6 +1,6 @@
 package Abstract.BinaryTree;
 
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ public interface DepthFirstTraversal {
      * @param root contains information of root node of the tree
      * @return List contains node data
      */
-    List<Integer> PreOrderTraversal(BinaryTree.Node root);
+    List<Integer> PreOrderTraversal(TreeNode<Integer> root);
 
     /**
      * InOrder Traversal of tree
@@ -19,7 +19,7 @@ public interface DepthFirstTraversal {
      * @param root contains information of root node of the tree
      * @return List contains node data
      */
-    List<Integer> InOrderTraversal(BinaryTree.Node root);
+    List<Integer> InOrderTraversal(TreeNode<Integer> root);
 
     /**
      * PostOrder Traversal of tree
@@ -27,5 +27,5 @@ public interface DepthFirstTraversal {
      * @param root contains information of root node of the tree
      * @return List contains node data
      */
-    List<Integer> PostOrderTraversal(BinaryTree.Node root);
+    List<Integer> PostOrderTraversal(TreeNode<Integer> root);
 }

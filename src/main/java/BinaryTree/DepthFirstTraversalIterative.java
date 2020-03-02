@@ -1,7 +1,7 @@
 package BinaryTree;
 
 import Abstract.BinaryTree.DepthFirstTraversal;
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,9 @@ public class DepthFirstTraversalIterative implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> PreOrderTraversal(BinaryTree.Node root) {
+    public List<Integer> PreOrderTraversal(TreeNode<Integer> root) {
         List<Integer> result = new ArrayList<>();
-        Stack<BinaryTree.Node> stack = new Stack<>();
+        Stack<TreeNode<Integer>> stack = new Stack<>();
         while (true) {
             while (root != null) {
                 result.add(root.data);
@@ -44,9 +44,9 @@ public class DepthFirstTraversalIterative implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> InOrderTraversal(BinaryTree.Node root) {
+    public List<Integer> InOrderTraversal(TreeNode<Integer> root) {
         List<Integer> result = new ArrayList<>();
-        Stack<BinaryTree.Node> stack = new Stack<>();
+        Stack<TreeNode<Integer>> stack = new Stack<>();
         while (true) {
             while (root != null) {
                 stack.push(root);
@@ -74,10 +74,10 @@ public class DepthFirstTraversalIterative implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> PostOrderTraversal(BinaryTree.Node root) {
+    public List<Integer> PostOrderTraversal(TreeNode<Integer> root) {
         List<Integer> result = new ArrayList<>();
-        Stack<BinaryTree.Node> stack = new Stack<>();
-        BinaryTree.Node previous = null;
+        Stack<TreeNode<Integer>> stack = new Stack<>();
+        TreeNode<Integer> previous = null;
 
         do {
             while (root != null) {
