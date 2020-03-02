@@ -6,6 +6,39 @@ import Structure.TreeNode;
 import java.util.Stack;
 
 public class OperationIterative implements Operation {
+
+    /**
+     * Adding node to the tree
+     *
+     * @param root      root of the tree
+     * @param data      data to insert
+     * @param leftChild true to add left child, false to add right child
+     * @return root element of the tree
+     */
+    @Override
+    public TreeNode<Integer> insert(TreeNode<Integer> root, int data, boolean leftChild) {
+        if (root == null) {
+            root = new TreeNode<>(data);
+        }
+
+        TreeNode<Integer> previousNode = null;
+        TreeNode<Integer> iterateRoot = root;
+
+        while (iterateRoot != null) {
+            previousNode = root;
+            iterateRoot = leftChild ? iterateRoot.leftChild : iterateRoot.rightChild;
+        }
+
+        if (leftChild) {
+            previousNode.leftChild = new TreeNode<>(data);
+        } else {
+            previousNode.rightChild = new TreeNode<>(data);
+        }
+
+        return root;
+    }
+
+
     /**
      * Will return the max element in the tree
      *
