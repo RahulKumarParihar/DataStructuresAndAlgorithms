@@ -2,8 +2,7 @@ package BinaryTree;
 
 import Abstract.BinaryTree.BreathFirstTraversal;
 import Abstract.BinaryTree.DepthFirstTraversal;
-import Abstract.BinaryTree.Max;
-import Abstract.BinaryTree.Searching;
+import Abstract.BinaryTree.Operation;
 import Structure.BinaryTree;
 
 import java.util.List;
@@ -96,8 +95,8 @@ public class Execute {
      * @param tree tree
      */
     private void ExecuteMax(BinaryTree tree) {
-        Max iterative = new MaxIterative();
-        Max recursive = new MaxRecursive();
+        Operation iterative = new OperationIterative();
+        Operation recursive = new OperationRecursive();
 
         System.out.println(iterative.FindMax(tree.root));
         System.out.println(recursive.FindMax(tree.root));
@@ -110,8 +109,8 @@ public class Execute {
         int data = scan.nextInt();
         scan.close();
 
-        Searching iterative = new SearchingIterative();
-        Searching recursive = new SearchingRecursive();
+        Operation iterative = new OperationIterative();
+        Operation recursive = new OperationIterative();
 
         if (iterative.Search(tree.root, data))
             System.out.println("Data exists in tree");
