@@ -1,7 +1,7 @@
 package BinaryTree;
 
 import Abstract.BinaryTree.Operation;
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.Stack;
 
@@ -13,10 +13,10 @@ public class OperationIterative implements Operation {
      * @return max element in the tree
      */
     @Override
-    public int FindMax(BinaryTree.Node root) {
+    public int FindMax(TreeNode<Integer> root) {
         int max = -1;
-        Stack<BinaryTree.Node> stack = new Stack<>();
-        BinaryTree.Node previous = null;
+        Stack<TreeNode<Integer>> stack = new Stack<>();
+        TreeNode<Integer> previous = null;
         do {
             while (root != null) {
                 stack.add(root);
@@ -49,8 +49,8 @@ public class OperationIterative implements Operation {
      * @return true if element is found
      */
     @Override
-    public boolean Search(BinaryTree.Node root, int data) {
-        Stack<BinaryTree.Node> stack = new Stack<>();
+    public boolean Search(TreeNode<Integer> root, int data) {
+        Stack<TreeNode<Integer>> stack = new Stack<>();
         while (true) {
             while (root != null) {
                 stack.push(root);

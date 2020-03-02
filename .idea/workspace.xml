@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
+    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Restructuring binary tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/BinaryTree/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstract/BinaryTree/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/BinaryTree/Searching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/BinaryTree/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstract/BinaryTree/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Execute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/MaxIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/MaxRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/SearchingIterative.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/SearchingRecursive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationRecursive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +196,7 @@
       <workItem from="1581904636803" duration="4539000" />
       <workItem from="1581991532149" duration="4376000" />
       <workItem from="1582685560288" duration="13000" />
-      <workItem from="1583116837934" duration="674000" />
+      <workItem from="1583116837934" duration="1232000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -446,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581995245109</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Restructuring binary tree">
+      <created>1583117649371</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1583117649371</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +487,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Javadoc Comments" />
     <MESSAGE value="Adding Execute Method in Main" />
     <MESSAGE value="Adding FindMax Iterative and Recursive Methods" />
     <MESSAGE value="Refactoring Interface" />
@@ -508,7 +511,8 @@
     <MESSAGE value="Changing the folder structure of the project" />
     <MESSAGE value="Renaming BinarySearchTreeNode to TreeNode" />
     <MESSAGE value="Adding Generic support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Generic support" />
+    <MESSAGE value="Restructuring binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructuring binary tree" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -558,10 +562,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1583117216519" />
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1583117626134">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1583118018555">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1583117626134" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1583118018555" />
     <state width="502" height="466" key="DebuggerActiveHint" timestamp="1581765611010">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

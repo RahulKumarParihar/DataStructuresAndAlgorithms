@@ -1,6 +1,6 @@
 package Abstract.BinaryTree;
 
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 public interface Operation {
     /**
@@ -9,7 +9,7 @@ public interface Operation {
      * @param root root node of the tree
      * @return max element in the tree
      */
-    int FindMax(BinaryTree.Node root);
+    int FindMax(TreeNode<Integer> root);
 
     /**
      * Search for an element in a tree
@@ -18,5 +18,5 @@ public interface Operation {
      * @param data element to search
      * @return true if element is found
      */
-    boolean Search(BinaryTree.Node root, int data);
+    boolean Search(TreeNode<Integer> root, int data);
 }

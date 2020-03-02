@@ -15,8 +15,8 @@ public class Execute {
     public void Run() {
         BinaryTree tree = CreateBinaryTree();
         ExecuteTraversal(tree);
-        ExecuteMax(tree);
-        ExecuteSearch(tree);
+        //ExecuteMax(tree);
+        //ExecuteSearch(tree);
     }
 
     /**
@@ -98,8 +98,8 @@ public class Execute {
         Operation iterative = new OperationIterative();
         Operation recursive = new OperationRecursive();
 
-        System.out.println(iterative.FindMax(tree.root));
-        System.out.println(recursive.FindMax(tree.root));
+        //System.out.println(iterative.FindMax(tree.root));
+        //System.out.println(recursive.FindMax(tree.root));
     }
 
     private void ExecuteSearch(BinaryTree tree) {
@@ -112,14 +112,14 @@ public class Execute {
         Operation iterative = new OperationIterative();
         Operation recursive = new OperationIterative();
 
-        if (iterative.Search(tree.root, data))
+        //if (iterative.Search(tree.root, data))
             System.out.println("Data exists in tree");
-        else
+        //else
             System.out.println("Data doesn't exists in tree");
 
-        if (recursive.Search(tree.root, data))
+        //if (recursive.Search(tree.root, data))
             System.out.println("Data exists in tree");
-        else
+        //else
             System.out.println("Data doesn't exists in tree");
     }
 }
