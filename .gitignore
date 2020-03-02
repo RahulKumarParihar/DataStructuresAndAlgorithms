@@ -26,3 +26,5 @@
 hs_err_pid*
 
 target/classes/META-INF/MANIFEST.MF
+
+.idea/workspace.xml
