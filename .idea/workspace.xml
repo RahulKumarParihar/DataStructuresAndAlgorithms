@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="">
+    <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Replacing TreeNode Class with BinarySearch.Node class in">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/BinarySearchTree/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstract/BinarySearchTree/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/BinarySearchTree/Travesal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstract/BinarySearchTree/Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/BasicOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/TreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Structure/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Structure/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/BinaryTree/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstract/BinaryTree/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/OperationRecursive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +194,9 @@
       <workItem from="1581758674902" duration="7217000" />
       <workItem from="1581850677903" duration="3294000" />
       <workItem from="1581904636803" duration="4539000" />
-      <workItem from="1581991532149" duration="3112000" />
+      <workItem from="1581991532149" duration="4376000" />
+      <workItem from="1582685560288" duration="13000" />
+      <workItem from="1583116837934" duration="4275000" />
     </task>
     <task id="LOCAL-00001" summary="Committing change in Project file xml">
       <created>1567485679407</created>
@@ -436,7 +436,35 @@
       <option name="project" value="LOCAL" />
       <updated>1581908579068</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Adding Generic support">
+      <created>1581995245109</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1581995245109</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Restructuring binary tree">
+      <created>1583117649371</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1583117649371</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Replacing TreeNode Class with BinarySearch.Node class in Operation">
+      <created>1583118125868</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1583118125868</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Replacing TreeNode Class with BinarySearch.Node class in Traversal">
+      <created>1583121244864</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1583121244864</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,10 +501,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Execute Class in Binary Tree" />
-    <MESSAGE value="Adding Javadoc Comments" />
-    <MESSAGE value="Adding Execute Method in Main" />
-    <MESSAGE value="Adding FindMax Iterative and Recursive Methods" />
     <MESSAGE value="Refactoring Interface" />
     <MESSAGE value="Refactoring Classes" />
     <MESSAGE value="Adding FindMax Iterative and Recursive approach for trees" />
@@ -498,12 +522,20 @@
     <MESSAGE value="Adding validBST with test cases" />
     <MESSAGE value="Changing the folder structure of the project" />
     <MESSAGE value="Renaming BinarySearchTreeNode to TreeNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming BinarySearchTreeNode to TreeNode" />
+    <MESSAGE value="Adding Generic support" />
+    <MESSAGE value="Restructuring binary tree" />
+    <MESSAGE value="Replacing TreeNode Class with BinarySearch.Node class in Operation" />
+    <MESSAGE value="Replacing TreeNode Class with BinarySearch.Node class in Traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replacing TreeNode Class with BinarySearch.Node class in Traversal" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="172" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583121109842">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="172" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1583121109842" />
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581656709175">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -512,10 +544,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1581875987308" />
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1581904880476">
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1583119810374">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581904880476" />
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1583119810374" />
     <state x="499" y="194" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581656090995">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -540,14 +572,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="545" y="248" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1536.834@0.0.1536.834" timestamp="1581764773691" />
-    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581994728570">
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583117095619">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1581994728570" />
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1581908576771">
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1583117095619" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583121045134">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581908576771" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1583121045134" />
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1583121242779">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1583121242779" />
     <state width="502" height="466" key="DebuggerActiveHint" timestamp="1581765611010">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -560,22 +596,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576549459456" />
-    <state width="732" height="211" key="GridCell.Tab.0.bottom" timestamp="1581995186464">
+    <state width="732" height="211" key="GridCell.Tab.0.bottom" timestamp="1582006770558">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581995186464" />
-    <state width="732" height="211" key="GridCell.Tab.0.center" timestamp="1581995186463">
+    <state width="732" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582006770558" />
+    <state width="732" height="211" key="GridCell.Tab.0.center" timestamp="1582006770557">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581995186463" />
-    <state width="732" height="211" key="GridCell.Tab.0.left" timestamp="1581995186463">
+    <state width="732" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582006770557" />
+    <state width="732" height="211" key="GridCell.Tab.0.left" timestamp="1582006770557">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581995186463" />
-    <state width="732" height="211" key="GridCell.Tab.0.right" timestamp="1581995186464">
+    <state width="732" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582006770557" />
+    <state width="732" height="211" key="GridCell.Tab.0.right" timestamp="1582006770558">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="732" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581995186464" />
+    <state width="732" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582006770558" />
     <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1581918211399">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -600,10 +636,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1577592570512" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1581991533108">
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1583121674712">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581991533108" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1583121674712" />
     <state x="448" y="15" width="738" height="804" key="find.popup" timestamp="1581752953158">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

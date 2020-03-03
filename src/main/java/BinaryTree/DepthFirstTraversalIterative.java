@@ -1,13 +1,13 @@
 package BinaryTree;
 
 import Abstract.BinaryTree.DepthFirstTraversal;
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class DepthFirstTraversalIterative implements DepthFirstTraversal {
+public class DepthFirstTraversalIterative<T> implements DepthFirstTraversal<T> {
     /**
      * PreOrder Traversal of tree using iterative method
      *
@@ -15,9 +15,9 @@ public class DepthFirstTraversalIterative implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> PreOrderTraversal(BinaryTree.Node root) {
-        List<Integer> result = new ArrayList<>();
-        Stack<BinaryTree.Node> stack = new Stack<>();
+    public List<T> PreOrderTraversal(TreeNode<T> root) {
+        List<T> result = new ArrayList<>();
+        Stack<TreeNode<T>> stack = new Stack<>();
         while (true) {
             while (root != null) {
                 result.add(root.data);
@@ -44,9 +44,9 @@ public class DepthFirstTraversalIterative implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> InOrderTraversal(BinaryTree.Node root) {
-        List<Integer> result = new ArrayList<>();
-        Stack<BinaryTree.Node> stack = new Stack<>();
+    public List<T> InOrderTraversal(TreeNode<T> root) {
+        List<T> result = new ArrayList<>();
+        Stack<TreeNode<T>> stack = new Stack<>();
         while (true) {
             while (root != null) {
                 stack.push(root);
@@ -74,10 +74,10 @@ public class DepthFirstTraversalIterative implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> PostOrderTraversal(BinaryTree.Node root) {
-        List<Integer> result = new ArrayList<>();
-        Stack<BinaryTree.Node> stack = new Stack<>();
-        BinaryTree.Node previous = null;
+    public List<T> PostOrderTraversal(TreeNode<T> root) {
+        List<T> result = new ArrayList<>();
+        Stack<TreeNode<T>> stack = new Stack<>();
+        TreeNode<T> previous = null;
 
         do {
             while (root != null) {

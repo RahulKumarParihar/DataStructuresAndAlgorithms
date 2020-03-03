@@ -1,28 +1,28 @@
 package BinaryTree;
 
 import Abstract.BinaryTree.BreathFirstTraversal;
-import Structure.BinaryTree;
+import Structure.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class DiagonalTraversal implements BreathFirstTraversal {
+public class DiagonalTraversal<T> implements BreathFirstTraversal<T> {
     /**
      * Printing traversal in diagonal order
      *
      * @param root root node of the tree
      * @return diagonal order traversal with different list
      */
-    public List<List<Integer>> traversal(BinaryTree.Node root) {
-        List<List<Integer>> result = new LinkedList<>();
+    public List<List<T>> traversal(TreeNode<T> root) {
+        List<List<T>> result = new LinkedList<>();
         if (root == null) {
             return result;
         }
-        List<Integer> diagonal = new LinkedList<>();
-        Queue<BinaryTree.Node> queue = new ArrayDeque<>();
-        BinaryTree.Node breakNode = new BinaryTree().new Node(Integer.MIN_VALUE);
+        List<T> diagonal = new LinkedList<>();
+        Queue<TreeNode<T>> queue = new ArrayDeque<>();
+        TreeNode<T> breakNode = new TreeNode<>(null);
         queue.offer(root);
         queue.offer(breakNode);
         while (!queue.isEmpty()) {
