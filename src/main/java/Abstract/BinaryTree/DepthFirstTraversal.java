@@ -4,14 +4,14 @@ import Structure.TreeNode;
 
 import java.util.List;
 
-public interface DepthFirstTraversal {
+public interface DepthFirstTraversal<T> {
     /**
      * PreOrder Traversal of tree
      *
      * @param root contains information of root node of the tree
      * @return List contains node data
      */
-    List<Integer> PreOrderTraversal(TreeNode<Integer> root);
+    List<T> PreOrderTraversal(TreeNode<T> root);
 
     /**
      * InOrder Traversal of tree
@@ -19,7 +19,7 @@ public interface DepthFirstTraversal {
      * @param root contains information of root node of the tree
      * @return List contains node data
      */
-    List<Integer> InOrderTraversal(TreeNode<Integer> root);
+    List<T> InOrderTraversal(TreeNode<T> root);
 
     /**
      * PostOrder Traversal of tree
@@ -27,5 +27,5 @@ public interface DepthFirstTraversal {
      * @param root contains information of root node of the tree
      * @return List contains node data
      */
-    List<Integer> PostOrderTraversal(TreeNode<Integer> root);
+    List<T> PostOrderTraversal(TreeNode<T> root);
 }

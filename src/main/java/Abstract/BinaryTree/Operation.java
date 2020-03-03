@@ -2,7 +2,7 @@ package Abstract.BinaryTree;
 
 import Structure.TreeNode;
 
-public interface Operation {
+public interface Operation<T> {
 
     /**
      * Adding node to the tree
@@ -12,7 +12,7 @@ public interface Operation {
      * @param leftChild true to add left child, false to add right child
      * @return root element of the tree
      */
-    TreeNode<Integer> insert(TreeNode<Integer> root, int data, boolean leftChild);
+    TreeNode<T> insert(TreeNode<T> root, T data, boolean leftChild);
 
     /**
      * Will return the max element in the tree
@@ -20,7 +20,7 @@ public interface Operation {
      * @param root root node of the tree
      * @return max element in the tree
      */
-    int FindMax(TreeNode<Integer> root);
+    T FindMax(TreeNode<T> root);
 
     /**
      * Search for an element in a tree
@@ -29,5 +29,5 @@ public interface Operation {
      * @param data element to search
      * @return true if element is found
      */
-    boolean Search(TreeNode<Integer> root, int data);
+    boolean Search(TreeNode<T> root, T data);
 }

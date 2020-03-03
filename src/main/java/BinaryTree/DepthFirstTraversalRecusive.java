@@ -6,7 +6,7 @@ import Structure.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
+public class DepthFirstTraversalRecusive<T> implements DepthFirstTraversal<T> {
     /**
      * PreOrder Traversal of tree using Recursive method
      *
@@ -14,8 +14,8 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> PreOrderTraversal(TreeNode<Integer> root) {
-        List<Integer> result = new ArrayList<>();
+    public List<T> PreOrderTraversal(TreeNode<T> root) {
+        List<T> result = new ArrayList<>();
         PreOrderHelper(root, result);
         return result;
     }
@@ -27,8 +27,8 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> InOrderTraversal(TreeNode<Integer> root) {
-        List<Integer> result = new ArrayList<>();
+    public List<T> InOrderTraversal(TreeNode<T> root) {
+        List<T> result = new ArrayList<>();
         InOrderHelper(root, result);
         return result;
     }
@@ -40,13 +40,13 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
      * @return List contains node data
      */
     @Override
-    public List<Integer> PostOrderTraversal(TreeNode<Integer> root) {
-        List<Integer> result = new ArrayList<>();
+    public List<T> PostOrderTraversal(TreeNode<T> root) {
+        List<T> result = new ArrayList<>();
         PostOrderHelper(root, result);
         return result;
     }
 
-    private void PreOrderHelper(TreeNode<Integer> root, List<Integer> result) {
+    private void PreOrderHelper(TreeNode<T> root, List<T> result) {
         if (root == null)
             return;
 
@@ -57,7 +57,7 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
         PreOrderHelper(root.rightChild, result);
     }
 
-    private void InOrderHelper(TreeNode<Integer> root, List<Integer> result) {
+    private void InOrderHelper(TreeNode<T> root, List<T> result) {
         if (root == null)
             return;
 
@@ -68,7 +68,7 @@ public class DepthFirstTraversalRecusive implements DepthFirstTraversal {
         InOrderHelper(root.rightChild, result);
     }
 
-    private void PostOrderHelper(TreeNode<Integer> root, List<Integer> result) {
+    private void PostOrderHelper(TreeNode<T> root, List<T> result) {
         if (root == null)
             return;
 

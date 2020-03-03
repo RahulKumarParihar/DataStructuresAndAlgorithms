@@ -8,21 +8,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-public class LevelOrderTraversal implements BreathFirstTraversal {
+public class LevelOrderTraversal<T> implements BreathFirstTraversal<T> {
     /**
      * Level order traversal
      *
      * @param root root node of the tree
      * @return List of list of integers
      */
-    public List<List<Integer>> traversal(TreeNode<Integer> root) {
-        List<List<Integer>> result = new ArrayList<>();
+    public List<List<T>> traversal(TreeNode<T> root) {
+        List<List<T>> result = new ArrayList<>();
 
         if (root == null)
             return result;
 
-        List<Integer> row;
-        Queue<TreeNode<Integer>> queue = new ArrayDeque<>();
+        List<T> row;
+        Queue<TreeNode<T>> queue = new ArrayDeque<>();
 
         queue.offer(root);
 

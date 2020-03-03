@@ -3,7 +3,7 @@ package BinaryTree;
 import Abstract.BinaryTree.Operation;
 import Structure.TreeNode;
 
-public class OperationRecursive implements Operation {
+public class OperationRecursive<T extends Comparable<T>> implements Operation<T> {
     /**
      * Adding node to the tree
      *
@@ -13,7 +13,7 @@ public class OperationRecursive implements Operation {
      * @return root element of the tree
      */
     @Override
-    public TreeNode<Integer> insert(TreeNode<Integer> root, int data, boolean leftChild) {
+    public TreeNode<T> insert(TreeNode<T> root, T data, boolean leftChild) {
         return null;
     }
 
@@ -24,14 +24,15 @@ public class OperationRecursive implements Operation {
      * @return max element in the tree
      */
     @Override
-    public int FindMax(TreeNode<Integer> root) {
-        int max = -1;
+    public T FindMax(TreeNode<T> root) {
+        T max = null;
         if (root != null) {
-            int dataValue = root.data;
-            int left = FindMax(root.leftChild);
-            int right = FindMax(root.rightChild);
-            max = Math.max(left, right);
-            max = Math.max(dataValue, max);
+            max = root.data;
+            T dataValue = root.data;
+            T left = FindMax(root.leftChild);
+            T right = FindMax(root.rightChild);
+            max = left.compareTo(right) > 0 ? left : right;
+            max = dataValue.compareTo(max) > 0 ? dataValue : max;
         }
         return max;
     }
@@ -44,7 +45,7 @@ public class OperationRecursive implements Operation {
      * @return true if element is found
      */
     @Override
-    public boolean Search(TreeNode<Integer> root, int data) {
+    public boolean Search(TreeNode<T> root, T data) {
         if (root == null)
             return false;
         else {

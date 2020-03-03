@@ -5,7 +5,7 @@ import Structure.TreeNode;
 
 import java.util.Stack;
 
-public class OperationIterative implements Operation {
+public class OperationIterative<T extends Comparable<T>> implements Operation<T> {
 
     /**
      * Adding node to the tree
@@ -16,13 +16,13 @@ public class OperationIterative implements Operation {
      * @return root element of the tree
      */
     @Override
-    public TreeNode<Integer> insert(TreeNode<Integer> root, int data, boolean leftChild) {
+    public TreeNode<T> insert(TreeNode<T> root, T data, boolean leftChild) {
         if (root == null) {
             root = new TreeNode<>(data);
         }
 
-        TreeNode<Integer> previousNode = null;
-        TreeNode<Integer> iterateRoot = root;
+        TreeNode<T> previousNode = null;
+        TreeNode<T> iterateRoot = root;
 
         while (iterateRoot != null) {
             previousNode = root;
@@ -46,12 +46,15 @@ public class OperationIterative implements Operation {
      * @return max element in the tree
      */
     @Override
-    public int FindMax(TreeNode<Integer> root) {
-        int max = -1;
-        Stack<TreeNode<Integer>> stack = new Stack<>();
-        TreeNode<Integer> previous = null;
+    public T FindMax(TreeNode<T> root) {
+        T max = null;
+        Stack<TreeNode<T>> stack = new Stack<>();
+        TreeNode<T> previous = null;
         do {
             while (root != null) {
+                if (max == null) {
+                    max = root.data;
+                }
                 stack.add(root);
 
                 root = root.leftChild;
@@ -61,7 +64,7 @@ public class OperationIterative implements Operation {
                 root = stack.peek();
 
                 if (root.rightChild == null || root.rightChild == previous) {
-                    if (max < root.data)
+                    if (root.data.compareTo(max) > 0)
                         max = root.data;
                     stack.pop();
                     previous = root;
@@ -82,8 +85,8 @@ public class OperationIterative implements Operation {
      * @return true if element is found
      */
     @Override
-    public boolean Search(TreeNode<Integer> root, int data) {
-        Stack<TreeNode<Integer>> stack = new Stack<>();
+    public boolean Search(TreeNode<T> root, T data) {
+        Stack<TreeNode<T>> stack = new Stack<>();
         while (true) {
             while (root != null) {
                 stack.push(root);
