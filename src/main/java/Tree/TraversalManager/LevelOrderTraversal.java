@@ -1,6 +1,6 @@
-package BinaryTree;
+package Tree.TraversalManager;
 
-import Abstract.BinaryTree.BreathFirstTraversal;
+import Abstract.Tree.TraversalManager.BreathFirstTraversal;
 import Structure.TreeNode;
 
 import java.util.ArrayDeque;

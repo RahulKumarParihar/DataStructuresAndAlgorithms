@@ -1,10 +1,10 @@
 package Test;
 
-import Abstract.BinarySearchTree.Operation;
-import Abstract.BinarySearchTree.Traversal;
-import BinarySearchTree.BasicOperation;
-import BinarySearchTree.TreeTraversal;
+import Abstract.Tree.BinarySearchTree.Operation;
+import Abstract.Tree.TraversalManager.DepthFirstTraversal;
 import Structure.TreeNode;
+import Tree.BinarySearchTree.BasicOperation;
+import Tree.TraversalManager.DepthFirstTraversalIterative;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class BinarySearchTree {
     private final Operation<Integer> operation = new BasicOperation<>();
-    private Traversal<Integer> traversal = new TreeTraversal<>();
+    private DepthFirstTraversal<Integer> traversal = new DepthFirstTraversalIterative<>();
 
     //<editor-fold desc="Create Test Cases">
     @Test

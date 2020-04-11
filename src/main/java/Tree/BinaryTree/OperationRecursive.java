@@ -1,6 +1,6 @@
-package BinaryTree;
+package Tree.BinaryTree;
 
-import Abstract.BinaryTree.Operation;
+import Abstract.Tree.BinaryTree.Operation;
 import Structure.TreeNode;
 
 public class OperationRecursive<T extends Comparable<T>> implements Operation<T> {

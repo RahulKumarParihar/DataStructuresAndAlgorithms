@@ -1,10 +1,10 @@
 package Test;
 
-import Abstract.BinaryTree.DepthFirstTraversal;
-import Abstract.BinaryTree.Operation;
-import BinaryTree.OperationIterative;
-import BinaryTree.DepthFirstTraversalIterative;
+import Abstract.Tree.BinaryTree.Operation;
+import Abstract.Tree.TraversalManager.DepthFirstTraversal;
 import Structure.TreeNode;
+import Tree.BinaryTree.OperationIterative;
+import Tree.TraversalManager.DepthFirstTraversalIterative;
 import org.junit.Test;
 
 import java.util.ArrayList;

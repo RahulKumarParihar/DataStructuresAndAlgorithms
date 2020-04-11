@@ -1,6 +1,6 @@
-package BinarySearchTree;
+package Tree.BinarySearchTree;
 
-import Abstract.BinarySearchTree.Operation;
+import Abstract.Tree.BinarySearchTree.Operation;
 import Structure.TreeNode;
 
 public class BasicOperation<T extends Comparable<T>> implements Operation<T> {
