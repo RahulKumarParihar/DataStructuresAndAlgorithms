@@ -1,6 +1,6 @@
-package BinaryTree;
+package Tree.TraversalManager;
 
-import Abstract.BinaryTree.DepthFirstTraversal;
+import Abstract.Tree.TraversalManager.DepthFirstTraversal;
 import Structure.TreeNode;
 
 import java.util.ArrayList;

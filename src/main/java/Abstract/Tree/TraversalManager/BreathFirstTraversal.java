@@ -1,4 +1,4 @@
-package Abstract.BinaryTree;
+package Abstract.Tree.TraversalManager;
 
 import Structure.TreeNode;
 
