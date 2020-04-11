@@ -1,9 +1,11 @@
 package Test;
 
+import Abstract.Tree.BinarySearchTree.GeneralTreeOperation;
 import Abstract.Tree.BinarySearchTree.Operation;
 import Abstract.Tree.TraversalManager.DepthFirstTraversal;
 import Structure.TreeNode;
 import Tree.BinarySearchTree.BasicOperation;
+import Tree.BinarySearchTree.GeneralTreeOperationRecursive;
 import Tree.TraversalManager.DepthFirstTraversalIterative;
 import org.junit.Test;
 
@@ -16,7 +18,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class BinarySearchTree {
     private final Operation<Integer> operation = new BasicOperation<>();
-    private DepthFirstTraversal<Integer> traversal = new DepthFirstTraversalIterative<>();
+    private final DepthFirstTraversal<Integer> traversal = new DepthFirstTraversalIterative<>();
+    private final GeneralTreeOperation<Integer> generalTreeOperation = new GeneralTreeOperationRecursive<>();
 
     //<editor-fold desc="Create Test Cases">
     @Test
@@ -197,6 +200,14 @@ public class BinarySearchTree {
         TreeNode<Integer> root = null;
         boolean isValid = operation.validBST(root);
         assertThat(isValid, is(true));
+    }
+
+    @Test
+    public void Height() {
+        int[] nodeValues = {8, 6, 5};
+        TreeNode<Integer> root = CreateBinarySearchTree(nodeValues);
+        int height = generalTreeOperation.height(root);
+        assertThat(height, is(3));
     }
     //</editor-fold>
 
