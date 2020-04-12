@@ -9,5 +9,5 @@ public interface AVLBasicOperation<T> {
      * @param node
      * @return
      */
-    boolean IsRotationRequired(TreeNode<T> node);
+    boolean IsBalanced(TreeNode<T> node);
 }
