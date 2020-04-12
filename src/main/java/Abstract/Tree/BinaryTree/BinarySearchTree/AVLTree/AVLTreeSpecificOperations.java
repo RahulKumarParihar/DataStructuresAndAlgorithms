@@ -1,8 +1,8 @@
-package Abstract.Tree.AVLTree;
+package Abstract.Tree.BinaryTree.BinarySearchTree.AVLTree;
 
 import Structure.TreeNode;
 
-public interface AVLBasicOperation<T> {
+public interface AVLTreeSpecificOperations<T> {
     /**
      * Checks that rotation is required in the avl tree
      *
