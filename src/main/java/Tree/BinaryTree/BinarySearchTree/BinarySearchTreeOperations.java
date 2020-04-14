@@ -1,9 +1,11 @@
-package Tree.BinarySearchTree;
+package Tree.BinaryTree.BinarySearchTree;
 
-import Abstract.Tree.BinarySearchTree.Operation;
+import Abstract.Tree.BinaryTree.BinarySearchTree.AbstractOperations;
+import Abstract.Tree.BinaryTree.BinarySearchTree.SearchTreeSpecificOperations;
 import Structure.TreeNode;
 
-public class BasicOperation<T extends Comparable<T>> implements Operation<T> {
+public class BinarySearchTreeOperations<T extends Comparable<T>> implements AbstractOperations<T>, SearchTreeSpecificOperations<T> {
+
     /**
      * Insert a node to binary search tree
      *
@@ -182,6 +184,21 @@ public class BasicOperation<T extends Comparable<T>> implements Operation<T> {
     @Override
     public boolean validBST(TreeNode<T> root) {
         return isValidHelper(root, null, null);
+    }
+
+    /**
+     * Get the height of the node
+     *
+     * @param node node
+     * @return height of the node
+     */
+    @Override
+    public int height(TreeNode<T> node) {
+        if (node == null) {
+            return 0;
+        }
+
+        return Math.max(height(node.leftChild), height(node.rightChild)) + 1;
     }
 
     //<editor-fold desc="Private methods">

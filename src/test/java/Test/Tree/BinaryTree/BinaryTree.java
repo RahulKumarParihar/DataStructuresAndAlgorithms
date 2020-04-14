@@ -1,4 +1,4 @@
-package Test;
+package Test.Tree.BinaryTree;
 
 import Abstract.Tree.BinaryTree.Operation;
 import Abstract.Tree.TraversalManager.DepthFirstTraversal;

@@ -1,4 +1,4 @@
-package Test;
+package Test.LinkedList;
 
 import Abstract.LinkedList.Operation;
 import LinkedList.Insert;
