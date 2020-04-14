@@ -23,7 +23,7 @@ public class AVLTreeOperations<T extends Comparable<T>> implements AbstractOpera
     @Override
     public TreeNode<T> insert(TreeNode<T> root, T nodeData) {
         root = abstractOperations.insert(root, nodeData);
-        root = rotationWrapper(root);
+        root = rotationWrapper(root, nodeData);
         return root;
     }
 
@@ -37,7 +37,7 @@ public class AVLTreeOperations<T extends Comparable<T>> implements AbstractOpera
     @Override
     public TreeNode<T> delete(TreeNode<T> root, T nodeDateToDelete) {
         root = abstractOperations.delete(root, nodeDateToDelete);
-        root = rotationWrapper(root);
+        root = rotationWrapper(root, nodeDateToDelete);
         return root;
     }
 
@@ -70,24 +70,43 @@ public class AVLTreeOperations<T extends Comparable<T>> implements AbstractOpera
 
     private TreeNode<T> leftRotation(TreeNode<T> node) {
         TreeNode<T> tempNode = node.rightChild;
-        node.rightChild = tempNode.leftChild != null ? tempNode.leftChild : null;
+        node.rightChild = tempNode.leftChild;//tempNode.leftChild != null ? tempNode.leftChild : null;
         tempNode.leftChild = node;
 
         return tempNode;
     }
 
-    private TreeNode<T> rotationHelper(TreeNode<T> node, Balanced balanced) {
-        do {
-            node = balanced.isLeftHeavy() ? rightRotation(node) : leftRotation(node);
-            balanced = IsBalanced(node);
-        } while (balanced.isBalance());
+    private TreeNode<T> doubleLeftRotation(TreeNode<T> node) {
+        node.leftChild = leftRotation(node.leftChild);
+        return rightRotation(node);
+    }
+
+    private TreeNode<T> doubleRightRotation(TreeNode<T> node) {
+        node.rightChild = rightRotation(node.rightChild);
+        return leftRotation(node);
+    }
+
+    private TreeNode<T> rotationHelper(TreeNode<T> node, T data, Balanced balanced) {
+        if (balanced.isLeftHeavy()) {
+            node = data.compareTo(node.leftChild.data) < 0
+                    // case I
+                    ? rightRotation(node)
+                    // case III
+                    : doubleLeftRotation(node);
+        } else {
+            node = data.compareTo(node.rightChild.data) > 0
+                    // Case II
+                    ? leftRotation(node)
+                    // Case IV
+                    : doubleRightRotation(node);
+        }
         return node;
     }
 
-    private TreeNode<T> rotationWrapper(TreeNode<T> node) {
+    private TreeNode<T> rotationWrapper(TreeNode<T> node, T data) {
         Balanced balanced = IsBalanced(node);
         if (balanced.isBalance()) {
-            node = rotationHelper(node, balanced);
+            node = rotationHelper(node, data, balanced);
         }
         return node;
     }

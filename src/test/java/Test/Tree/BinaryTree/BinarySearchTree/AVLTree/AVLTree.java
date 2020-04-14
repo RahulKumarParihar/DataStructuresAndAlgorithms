@@ -26,6 +26,20 @@ public class AVLTree {
         assertThat(root.leftChild.data, is(5));
     }
 
+    @Test
+    public void TestRotationCaseIII() {
+        int[] nodes = {20, 10, 15};
+        TreeNode<Integer> root = CreateAVLTree(nodes);
+        assertThat(root.leftChild.data, is(10));
+    }
+
+    @Test
+    public void TestRotationCaseIV() {
+        int[] nodes = {10, 20, 15};
+        TreeNode<Integer> root = CreateAVLTree(nodes);
+        assertThat(root.rightChild.data, is(20));
+    }
+
     //<editor-fold desc="Private method">
     private TreeNode<Integer> CreateAVLTree(int[] nodes) {
         TreeNode<Integer> root = null;
