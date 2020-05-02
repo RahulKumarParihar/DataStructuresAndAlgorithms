@@ -11,8 +11,6 @@ public class AVLTreeOperations<T extends Comparable<T>> implements AbstractOpera
     private final AbstractOperations<T> abstractOperations = new BinarySearchTreeOperations<>();
     private final SearchTreeSpecificOperations<T> searchTreeSpecificOperations = new BinarySearchTreeOperations<>();
 
-    //<editor-fold desc="Override methods">
-
     /**
      * Add a node to binary search tree
      *
@@ -23,9 +21,10 @@ public class AVLTreeOperations<T extends Comparable<T>> implements AbstractOpera
     @Override
     public TreeNode<T> insert(TreeNode<T> root, T nodeData) {
         root = abstractOperations.insert(root, nodeData);
-        root = rotationWrapper(root, nodeData);
+        root = rotationWrapper(root, nodeData, Operation.Add);
         return root;
     }
+    //<editor-fold desc="Override methods">
 
     /**
      * Removes a node from binary search tree
@@ -37,8 +36,25 @@ public class AVLTreeOperations<T extends Comparable<T>> implements AbstractOpera
     @Override
     public TreeNode<T> delete(TreeNode<T> root, T nodeDateToDelete) {
         root = abstractOperations.delete(root, nodeDateToDelete);
-        root = rotationWrapper(root, nodeDateToDelete);
+        root = rotationWrapper(root, nodeDateToDelete, Operation.Delete);
         return root;
+    }
+
+    private TreeNode<T> insertRotationHelper(TreeNode<T> node, T data, Balanced balanced) {
+        if (balanced.isLeftHeavy()) {
+            node = data.compareTo(node.leftChild.data) < 0
+                    // case I
+                    ? rightRotation(node)
+                    // case III
+                    : doubleLeftRotation(node);
+        } else {
+            node = data.compareTo(node.rightChild.data) > 0
+                    // Case II
+                    ? leftRotation(node)
+                    // Case IV
+                    : doubleRightRotation(node);
+        }
+        return node;
     }
 
     /**
@@ -86,29 +102,34 @@ public class AVLTreeOperations<T extends Comparable<T>> implements AbstractOpera
         return leftRotation(node);
     }
 
-    private TreeNode<T> rotationHelper(TreeNode<T> node, T data, Balanced balanced) {
+    private TreeNode<T> deleteRotationHelper(TreeNode<T> node, T data, Balanced balanced) {
         if (balanced.isLeftHeavy()) {
-            node = data.compareTo(node.leftChild.data) < 0
-                    // case I
-                    ? rightRotation(node)
-                    // case III
-                    : doubleLeftRotation(node);
+            node = !IsBalanced(node.leftChild).isLeftHeavy() ? doubleLeftRotation(node) : rightRotation(node);
         } else {
-            node = data.compareTo(node.rightChild.data) > 0
-                    // Case II
-                    ? leftRotation(node)
-                    // Case IV
-                    : doubleRightRotation(node);
+            node = IsBalanced(node.rightChild).isLeftHeavy() ? doubleRightRotation(node) : leftRotation(node);
         }
         return node;
     }
 
-    private TreeNode<T> rotationWrapper(TreeNode<T> node, T data) {
+    private TreeNode<T> rotationWrapper(TreeNode<T> node, T data, Operation operation) {
         Balanced balanced = IsBalanced(node);
         if (balanced.isBalance()) {
-            node = rotationHelper(node, data, balanced);
+            switch (operation) {
+                case Add:
+                    node = insertRotationHelper(node, data, balanced);
+                    break;
+                case Delete:
+                    node = deleteRotationHelper(node, data, balanced);
+                    break;
+            }
+
         }
         return node;
+    }
+
+    enum Operation {
+        Add,
+        Delete
     }
     //</editor-fold>
 
