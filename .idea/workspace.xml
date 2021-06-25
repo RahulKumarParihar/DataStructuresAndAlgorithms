@@ -5,11 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0651e1e2-6765-4c4e-bef6-14f7e9032dfd" name="Default Changelist" comment="Replacing TreeNode Class with BinarySearch.Node class in">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Heap/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Library/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Library/Stack/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/LinkedList/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Abstract/LinkedList/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/Tree/BinaryTree/BinarySearchTree/AVLTree/AVLTreeSpecificOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Abstract/Tree/BinaryTree/BinarySearchTree/AVLTree/AVLTreeSpecificOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/Tree/BinaryTree/BinarySearchTree/AbstractOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Abstract/Tree/BinaryTree/BinarySearchTree/AbstractOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/Tree/BinaryTree/BinarySearchTree/SearchTreeSpecificOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Abstract/Tree/BinaryTree/BinarySearchTree/SearchTreeSpecificOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/Tree/BinaryTree/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Abstract/Tree/BinaryTree/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/Tree/TraversalManager/BreathFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Abstract/Tree/TraversalManager/BreathFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstract/Tree/TraversalManager/DepthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Abstract/Tree/TraversalManager/DepthFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Heap/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Heap/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Heap/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/LinkedList/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/LinkedList/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/OperationIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/LinkedList/OperationIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/OperationRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/LinkedList/OperationRecursively.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Structure/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Structure/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Structure/LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Structure/LinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Structure/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Structure/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinaryTree/BinarySearchTree/AVLTree/AVLTreeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/BinaryTree/BinarySearchTree/AVLTree/AVLTreeOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinaryTree/BinarySearchTree/Balanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/BinaryTree/BinarySearchTree/Balanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinaryTree/BinarySearchTree/BinarySearchTreeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/BinaryTree/BinarySearchTree/BinarySearchTreeOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinaryTree/OperationIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/BinaryTree/OperationIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinaryTree/OperationRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/BinaryTree/OperationRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/TraversalManager/DepthFirstTraversalIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/TraversalManager/DepthFirstTraversalIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/TraversalManager/DepthFirstTraversalRecusive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/TraversalManager/DepthFirstTraversalRecusive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/TraversalManager/DiagonalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/TraversalManager/DiagonalTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/TraversalManager/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Library/Tree/TraversalManager/LevelOrderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -530,6 +556,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataStructures$Main.ic" NAME="Main Coverage Results" MODIFIED="1622696627742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DataStructures$Main.ic" NAME="Main Coverage Results" MODIFIED="1622696930473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
