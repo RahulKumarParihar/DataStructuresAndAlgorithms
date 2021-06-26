@@ -48,6 +48,22 @@ public class StackTest {
         stack.pop();
     }
 
+    @Test(expected = RuntimeException.class)
+    public void linkedListSeekUnderflow(){
+        stack = new StackLinkedListImplementation<Integer>(CAPACITY_1);
+        stack.push(1);
+        stack.pop();
+        stack.seek();
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void arraySeekUnderflow(){
+        stack = new StackArrayImplementation<Integer>(CAPACITY_1);
+        stack.push(1);
+        stack.pop();
+        stack.seek();
+    }
+
     @Test
     public void linkedListSize(){
         stack = new StackLinkedListImplementation<Integer>(CAPACITY_10);
