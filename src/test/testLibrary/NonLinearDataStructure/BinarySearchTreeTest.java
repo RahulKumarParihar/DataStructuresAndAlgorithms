@@ -1,4 +1,4 @@
-package Test.Tree.BinaryTree.BinarySearchTree;
+package NonLinearDataStructure;
 
 import Abstract.Tree.BinaryTree.BinarySearchTree.AbstractOperations;
 import Abstract.Tree.BinaryTree.BinarySearchTree.SearchTreeSpecificOperations;
@@ -15,7 +15,7 @@ import java.util.List;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class BinarySearchTree {
+public class BinarySearchTreeTest {
     private final AbstractOperations<Integer> binarySearchTreeOperation = new BinarySearchTreeOperations<>();
     private final DepthFirstTraversal<Integer> traversal = new DepthFirstTraversalIterative<>();
     private final SearchTreeSpecificOperations<Integer> searchTreeSpecificOperations = new BinarySearchTreeOperations<>();

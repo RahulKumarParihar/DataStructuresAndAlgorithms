@@ -1,4 +1,4 @@
-package Test.Tree.BinaryTree.BinarySearchTree.AVLTree;
+package NonLinearDataStructure;
 
 import Abstract.Tree.BinaryTree.BinarySearchTree.AbstractOperations;
 import Structure.TreeNode;
@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class AVLTree {
+public class AVLTreeTest {
     AbstractOperations<Integer> avlTreeOperations = new AVLTreeOperations<>();
 
 
