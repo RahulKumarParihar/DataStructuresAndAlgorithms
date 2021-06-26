@@ -1,4 +1,4 @@
-package Test.LinkedList;
+package LinearDataSturcture;
 
 import Abstract.LinkedList.Operation;
 import LinkedList.Insert;
@@ -15,7 +15,7 @@ import static Structure.LinkedLists.Node;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class LinkedList {
+public class LinkedListTest {
     private Insert insert = new Insert();
     private Operation operationIteration = new OperationIteration();
     private Operation operationRecursively = new OperationRecursively();

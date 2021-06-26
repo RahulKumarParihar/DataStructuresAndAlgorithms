@@ -1,4 +1,4 @@
-package Test.Tree.BinaryTree;
+package NonLinearDataStructure;
 
 import Abstract.Tree.BinaryTree.Operation;
 import Abstract.Tree.TraversalManager.DepthFirstTraversal;
@@ -14,7 +14,7 @@ import java.util.List;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class BinaryTree {
+public class BinaryTreeTest {
     private final Operation<Integer> operation = new OperationIterative<>();
     private final DepthFirstTraversal<Integer> traversal = new DepthFirstTraversalIterative<>();
 
