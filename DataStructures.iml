@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/Library" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/testLibrary" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/libraries" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
