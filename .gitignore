@@ -105,4 +105,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
  
 # Main Class
-src/main/DataStructures/Main.java
+src/main/DataStructuresAndAlgorithms/Main.java

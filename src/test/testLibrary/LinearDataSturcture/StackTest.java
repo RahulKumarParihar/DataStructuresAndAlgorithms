@@ -1,8 +1,8 @@
 package LinearDataSturcture;
 
-import Stack.Stack;
-import Stack.StackLinkedListImplementation;
-import Stack.StackArrayImplementation;
+import DataStructures.Stack.Stack;
+import DataStructures.Stack.StackLinkedListImplementation;
+import DataStructures.Stack.StackArrayImplementation;
 import org.junit.Test;
 
 import java.util.ArrayList;

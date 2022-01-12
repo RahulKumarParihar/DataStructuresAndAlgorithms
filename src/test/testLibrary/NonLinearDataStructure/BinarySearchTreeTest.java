@@ -1,11 +1,11 @@
 package NonLinearDataStructure;
 
-import Abstract.Tree.BinaryTree.BinarySearchTree.AbstractOperations;
-import Abstract.Tree.BinaryTree.BinarySearchTree.SearchTreeSpecificOperations;
-import Abstract.Tree.TraversalManager.DepthFirstTraversal;
-import Structure.TreeNode;
-import Tree.BinaryTree.BinarySearchTree.BinarySearchTreeOperations;
-import Tree.TraversalManager.DepthFirstTraversalIterative;
+import DataStructures.Abstract.Tree.BinaryTree.BinarySearchTree.AbstractOperations;
+import DataStructures.Abstract.Tree.BinaryTree.BinarySearchTree.SearchTreeSpecificOperations;
+import DataStructures.Abstract.Tree.TraversalManager.DepthFirstTraversal;
+import DataStructures.Structure.TreeNode;
+import DataStructures.Tree.BinaryTree.BinarySearchTree.BinarySearchTreeOperations;
+import DataStructures.Tree.TraversalManager.DepthFirstTraversalIterative;
 import org.junit.Test;
 
 import java.util.ArrayList;

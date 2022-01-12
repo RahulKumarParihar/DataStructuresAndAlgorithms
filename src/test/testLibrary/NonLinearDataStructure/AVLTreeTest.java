@@ -1,8 +1,8 @@
 package NonLinearDataStructure;
 
-import Abstract.Tree.BinaryTree.BinarySearchTree.AbstractOperations;
-import Structure.TreeNode;
-import Tree.BinaryTree.BinarySearchTree.AVLTree.AVLTreeOperations;
+import DataStructures.Abstract.Tree.BinaryTree.BinarySearchTree.AbstractOperations;
+import DataStructures.Structure.TreeNode;
+import DataStructures.Tree.BinaryTree.BinarySearchTree.AVLTree.AVLTreeOperations;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;

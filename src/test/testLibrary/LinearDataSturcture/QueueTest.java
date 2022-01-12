@@ -1,6 +1,8 @@
 package LinearDataSturcture;
 
-import Queue.*;
+import DataStructures.Queue.Queue;
+import DataStructures.Queue.QueueArrayImplementation;
+import DataStructures.Queue.QueueLinkedListImplementation;
 import org.junit.Test;
 
 import java.util.ArrayList;

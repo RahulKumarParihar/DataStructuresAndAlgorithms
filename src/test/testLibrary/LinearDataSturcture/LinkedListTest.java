@@ -1,9 +1,9 @@
 package LinearDataSturcture;
 
-import Abstract.LinkedList.Operation;
-import LinkedList.Insert;
-import LinkedList.OperationIteration;
-import LinkedList.OperationRecursively;
+import DataStructures.Abstract.LinkedList.Operation;
+import DataStructures.LinkedList.Insert;
+import DataStructures.LinkedList.OperationIteration;
+import DataStructures.LinkedList.OperationRecursively;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static Structure.LinkedLists.Node;
+import static DataStructures.Structure.LinkedLists.Node;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
